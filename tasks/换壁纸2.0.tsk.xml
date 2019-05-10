@@ -1,0 +1,132 @@
+<TaskerData sr="" dvi="1" tv="5.7.1">
+	<Task sr="task45">
+		<cdate>1557060127269</cdate>
+		<edate>1557415455488</edate>
+		<id>45</id>
+		<nme>换壁纸2.0</nme>
+		<pri>100</pri>
+		<rty>1</rty>
+		<Action sr="act0" ve="7">
+			<code>61</code>
+			<Int sr="arg0">
+				<var>%AZhend</var>
+			</Int>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>412</code>
+			<Str sr="arg0" ve="3">Download/自动更换壁纸库</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="6"/>
+			<Str sr="arg5" ve="3">%Wallpaper</Str>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>547</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">%Wnum</Str>
+			<Str sr="arg1" ve="3">0</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>38</code>
+			<label>往上为顺序换壁纸</label>
+			<on>false</on>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>548</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">处理成功，开始更换壁纸</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>369</code>
+			<label>随机</label>
+			<Str sr="arg0" ve="3">%Wallpaper</Str>
+			<Int sr="arg1" val="4"/>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>109</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3">%Wallpaper1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>357</code>
+			<Str sr="arg0" ve="3">%Wallpaper</Str>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>888</code>
+			<label>往下为顺序换壁纸。转转次数</label>
+			<on>false</on>
+			<Str sr="arg0" ve="3">%Wnum</Str>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>547</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">%Wnum1</Str>
+			<Str sr="arg1" ve="3">0</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>37</code>
+			<label>旋转次数</label>
+			<on>false</on>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%Wnum1</lhs>
+					<op>6</op>
+					<rhs>%Wnum</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>369</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">%Wallpaper</Str>
+			<Int sr="arg1" val="3"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>888</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">%Wnum1</Str>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>135</code>
+			<label>编辑改变任务位置后，记得调节位置</label>
+			<on>false</on>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="5"/>
+			<Str sr="arg2" ve="3"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>38</code>
+			<on>false</on>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>37</code>
+			<label>循环图片张数+1。超出无效。该数过大任务量就越大</label>
+			<on>false</on>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%Wnum</lhs>
+					<op>7</op>
+					<rhs>40</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Img sr="icn" ve="2">
+			<nme>mw_device_wallpaper</nme>
+			<tint>-1</tint>
+		</Img>
+	</Task>
+</TaskerData>

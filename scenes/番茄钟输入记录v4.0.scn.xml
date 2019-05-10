@@ -1,0 +1,227 @@
+<TaskerData sr="" dvi="1" tv="5.7.1">
+	<dmetric>1080.0,1920.0</dmetric>
+	<Scene sr="scene番茄钟输入记录v4.0">
+		<cdate>1556247027310</cdate>
+		<edate>1557330287575</edate>
+		<heightLand>500</heightLand>
+		<heightPort>747</heightPort>
+		<nme>番茄钟输入记录v4.0</nme>
+		<widthLand>1500</widthLand>
+		<widthPort>1008</widthPort>
+		<EditTextElement sr="elements0" ve="3">
+			<flags>12</flags>
+			<geom>103,9,782,340,475,0,525,200</geom>
+			<valueselectedTask>72</valueselectedTask>
+			<Str sr="arg0" ve="3">文本框1</Str>
+			<Str sr="arg1" ve="3">%FQie</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="525"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3">#83000000</Str>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="3"/>
+				<Str sr="arg5" ve="3">#FFFFFFFF</Str>
+				<Int sr="arg6" val="10"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</EditTextElement>
+		<ButtonElement sr="elements1" ve="3">
+			<clickTask>73</clickTask>
+			<flags>4</flags>
+			<geom>200,397,175,175,100,125,250,175</geom>
+			<Str sr="arg0" ve="3">按钮1</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF002BFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2">
+				<nme>mw_editor_vertical_align_bottom</nme>
+			</Img>
+		</ButtonElement>
+		<ButtonElement sr="elements2" ve="3">
+			<clickTask>74</clickTask>
+			<flags>4</flags>
+			<geom>613,397,170,170,1125,125,225,175</geom>
+			<Str sr="arg0" ve="3">按钮11</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF002BFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2">
+				<nme>mw_editor_format_clear</nme>
+			</Img>
+		</ButtonElement>
+		<TextElement sr="elements3" ve="3">
+			<flags>4</flags>
+			<geom>176,567,209,100,125,300,209,100</geom>
+			<Str sr="arg0" ve="3">文字1</Str>
+			<Str sr="arg1" ve="3">记录</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements4" ve="3">
+			<flags>4</flags>
+			<geom>613,567,200,98,1125,300,209,100</geom>
+			<Str sr="arg0" ve="3">文字11</Str>
+			<Str sr="arg1" ve="3">返回</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<SliderElement sr="elements5">
+			<flags>4</flags>
+			<geom>79,349,826,49,400,225,652,50</geom>
+			<valueselectedTask>55</valueselectedTask>
+			<Str sr="arg0" ve="3">专注度</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="5"/>
+			<Int sr="arg4">
+				<var>%Zhuanzhudu</var>
+			</Int>
+			<Int sr="arg5" val="0"/>
+			<Img sr="arg6" ve="2"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="1"/>
+				<Str sr="arg2" ve="3">#FF00782D</Str>
+				<Str sr="arg3" ve="3">#33FFFFFF</Str>
+				<Int sr="arg4" val="1"/>
+				<Str sr="arg5" ve="3">#00000000</Str>
+				<Int sr="arg6" val="23"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</SliderElement>
+		<TextElement sr="elements6" ve="3">
+			<flags>4</flags>
+			<geom>394,397,152,57,650,275,175,50</geom>
+			<Str sr="arg0" ve="3">文字3</Str>
+			<Str sr="arg1" ve="3">专注度:%Zhuanzhudu</Str>
+			<Int sr="arg2" val="8"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<PropertiesElement sr="props">
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#E9009688</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3">输入文字保存</Str>
+			<Str sr="arg5" ve="3"/>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
+		</PropertiesElement>
+	</Scene>
+	<Task sr="task55">
+		<cdate>1557295802191</cdate>
+		<edate>1557295802191</edate>
+		<id>55</id>
+		<pri>7</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Zhuanzhudu</Str>
+			<Str sr="arg1" ve="3">%new_val</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task72">
+		<cdate>1556249201469</cdate>
+		<edate>1556249201469</edate>
+		<id>72</id>
+		<pri>7</pri>
+		<Action sr="act0" ve="7">
+			<code>548</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">%new_val</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>597</code>
+			<Str sr="arg0" ve="3">%new_val</Str>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="84"/>
+			<Int sr="arg3" val="1"/>
+			<Str sr="arg4" ve="3">%FQie</Str>
+		</Action>
+	</Task>
+	<Task sr="task73">
+		<cdate>1556262772972</cdate>
+		<edate>1556262772972</edate>
+		<id>73</id>
+		<pri>7</pri>
+		<Action sr="act0" ve="7">
+			<code>567</code>
+			<label>将番茄工作法记录写入日历保存</label>
+			<Str sr="arg0" ve="3">-25/25</Str>
+			<Str sr="arg1" ve="3">Google:calendar_displayname_xiaomi</Str>
+			<Str sr="arg2" ve="3">%TIME 番茄:%FQie</Str>
+			<Str sr="arg3" ve="3">番茄工作法
+专注程度:%Zhuanzhudu (1~5，1为最专注)</Str>
+			<Str sr="arg4" ve="3">%LOCN</Str>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">已写入  %FQie</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>61</code>
+			<Int sr="arg0">
+				<var>%AZhend</var>
+			</Int>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">番茄钟输入记录v4.0</Str>
+		</Action>
+	</Task>
+	<Task sr="task74">
+		<cdate>1556262790045</cdate>
+		<edate>1556262790045</edate>
+		<id>74</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>61</code>
+			<Int sr="arg0">
+				<var>%AZhend</var>
+			</Int>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>48</code>
+			<Str sr="arg0" ve="3">番茄钟输入记录v4.0</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+	</Task>
+</TaskerData>

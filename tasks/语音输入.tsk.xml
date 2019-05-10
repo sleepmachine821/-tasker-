@@ -1,0 +1,180 @@
+<TaskerData sr="" dvi="1" tv="5.7.1">
+	<Task sr="task3">
+		<cdate>1556070566824</cdate>
+		<edate>1557442443883</edate>
+		<id>3</id>
+		<nme>语音输入</nme>
+		<pri>100</pri>
+		<rty>1</rty>
+		<Action sr="act0" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">开启语音识别输入文件</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>559</code>
+			<Str sr="arg0" ve="3">请问你要记录什么？</Str>
+			<Str sr="arg1" ve="3">default:default</Str>
+			<Int sr="arg2" val="3"/>
+			<Int sr="arg3" val="5"/>
+			<Int sr="arg4" val="5"/>
+			<Int sr="arg5" val="1"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>417</code>
+			<Str sr="arg0" ve="3">18311/识别内容.txt</Str>
+			<Str sr="arg1" ve="3">%filter</Str>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">%filter</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<bool0>Or</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%avcommnofilter</lhs>
+					<op>5</op>
+					<rhs>结束</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%avcommnofilter</lhs>
+					<op>4</op>
+					<rhs>关闭</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>903</code>
+			<label>不能直接调到下一步，需要等待超时时间</label>
+			<on>false</on>
+			<Str sr="arg0" ve="3">识别</Str>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">zh-CN</Str>
+			<Int sr="arg3" val="4"/>
+			<Int sr="arg4" val="10"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>548</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">%VOICE</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>1754437993</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<Contains>false</Contains>
+					<Contains-type>java.lang.Boolean</Contains-type>
+					<DontTriggerConditions>false</DontTriggerConditions>
+					<DontTriggerConditions-type>java.lang.Boolean</DontTriggerConditions-type>
+					<ErrorOnNoMatch>false</ErrorOnNoMatch>
+					<ErrorOnNoMatch-type>java.lang.Boolean</ErrorOnNoMatch-type>
+					<ErrorOnRecognitionError>false</ErrorOnRecognitionError>
+					<ErrorOnRecognitionError-type>java.lang.Boolean</ErrorOnRecognitionError-type>
+					<LanguageCode>&lt;null&gt;</LanguageCode>
+					<LanguageCode-type>java.lang.String</LanguageCode-type>
+					<LanguageModel>free_form</LanguageModel>
+					<LanguageModel-type>java.lang.String</LanguageModel-type>
+					<NoPopup>false</NoPopup>
+					<NoPopup-type>java.lang.Boolean</NoPopup-type>
+					<OfflineMode>false</OfflineMode>
+					<OfflineMode-type>java.lang.Boolean</OfflineMode-type>
+					<Precision>&lt;null&gt;</Precision>
+					<Precision-type>java.lang.String</Precision-type>
+					<ProcessNaturalLanguage>false</ProcessNaturalLanguage>
+					<ProcessNaturalLanguage-type>java.lang.Boolean</ProcessNaturalLanguage-type>
+					<PromptText>&lt;null&gt;</PromptText>
+					<PromptText-type>java.lang.String</PromptText-type>
+					<RecognitionTimeout>&lt;null&gt;</RecognitionTimeout>
+					<RecognitionTimeout-type>java.lang.String</RecognitionTimeout-type>
+					<RemoteDevices>&lt;StringArray sr=""/&gt;</RemoteDevices>
+					<RemoteDevices-type>[Ljava.lang.String;</RemoteDevices-type>
+					<ReplacementsRegex>false</ReplacementsRegex>
+					<ReplacementsRegex-type>java.lang.Boolean</ReplacementsRegex-type>
+					<Substitutions>&lt;null&gt;</Substitutions>
+					<Substitutions-type>java.lang.String</Substitutions-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>
+
+Language Model: Free Form
+Voice command without headset
+Command: "all"</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<configcommand>&lt;null&gt;</configcommand>
+					<configcommand-type>java.lang.String</configcommand-type>
+					<configcommandinvert>false</configcommandinvert>
+					<configcommandinvert-type>java.lang.Boolean</configcommandinvert-type>
+					<configexactsub>false</configexactsub>
+					<configexactsub-type>java.lang.Boolean</configexactsub-type>
+					<configregexsub>false</configregexsub>
+					<configregexsub-type>java.lang.Boolean</configregexsub-type>
+					<configuseheadset>false</configuseheadset>
+					<configuseheadset-type>java.lang.Boolean</configuseheadset-type>
+					<configuseheadsetiflast>false</configuseheadsetiflast>
+					<configuseheadsetiflast-type>java.lang.Boolean</configuseheadsetiflast-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%avcomm
+First recognized Command
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%avcommnofilter
+First Command Without Filter
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%avcomms()
+All recognized commands
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%avcommsnofilter()
+All recognized commands without filter
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%avmatched
+Has value of true if command is matched; isn't set otherwise
+Has value of true if command is matched; isn't set otherwise&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;%avsource
+Source of the Voice Command
+Can be normal, continuous, test or googlenow&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;%avword()
+Word Array
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;%err
+Error Code
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;%errmsg
+Error Message
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>LanguageModel plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<plugininstanceid>a1e1974f-c89e-4832-964f-1dcf4d8dea80</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autovoice.intent.IntentGetVoice</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autovoice</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autovoice.activity.ActivityConfigGetVoice</Str>
+			<Int sr="arg3" val="120"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">%avcommnofilter</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>410</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">18311/识别内容.txt</Str>
+			<Str sr="arg1" ve="3">%avcommnofilter</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="1"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>135</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="3"/>
+			<Str sr="arg2" ve="3"/>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>38</code>
+		</Action>
+		<Img sr="icn" ve="2">
+			<nme>mw_action_settings_voice</nme>
+			<tint>-16748033</tint>
+		</Img>
+	</Task>
+</TaskerData>

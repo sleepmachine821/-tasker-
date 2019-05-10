@@ -1,0 +1,40 @@
+<TaskerData sr="" dvi="1" tv="5.7.1">
+	<Task sr="task22">
+		<cdate>1557036819087</cdate>
+		<edate>1557442684994</edate>
+		<id>22</id>
+		<nme>锁屏记录2.0</nme>
+		<Action sr="act0" ve="7">
+			<code>410</code>
+			<Str sr="arg0" ve="3">Tasker/myfile/screen_offon.txt</Str>
+			<Str sr="arg1" ve="3">%DATE %TIME 锁屏</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="1"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<label>关屏时开机秒数</label>
+			<Str sr="arg0" ve="3">%Scr_off</Str>
+			<Str sr="arg1" ve="3">%UPS</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>888</code>
+			<label>累计时间</label>
+			<Str sr="arg0" ve="3">%Scr_time</Str>
+			<Int sr="arg1">
+				<var>%Scr_off-%Scr_on</var>
+			</Int>
+			<Int sr="arg2" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%Scr_off-%Scr_on</lhs>
+					<op>7</op>
+					<rhs>0</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+	</Task>
+</TaskerData>

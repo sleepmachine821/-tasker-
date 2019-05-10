@@ -1,0 +1,23 @@
+<TaskerData sr="" dvi="1" tv="5.7.1">
+	<Task sr="task50">
+		<cdate>1557286057671</cdate>
+		<edate>1557389841470</edate>
+		<id>50</id>
+		<nme>查询执行中任务</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">配置状态:%PACTIVE
+任务执行中:%TRUN</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>61</code>
+			<Int sr="arg0" val="30"/>
+		</Action>
+		<Img sr="icn" ve="2">
+			<nme>mw_action_search</nme>
+			<tint>-1</tint>
+		</Img>
+	</Task>
+</TaskerData>

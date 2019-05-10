@@ -1,0 +1,57 @@
+<TaskerData sr="" dvi="1" tv="5.7.1">
+	<Task sr="task58">
+		<cdate>1340988477954</cdate>
+		<edate>1557442770455</edate>
+		<id>58</id>
+		<nme>早八点任务</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<label>计算开屏时间变量重置</label>
+			<Str sr="arg0" ve="3">%Scr_time</Str>
+			<Str sr="arg1" ve="3">0</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<label>开屏次数重置</label>
+			<Str sr="arg0" ve="3">%Scr_num</Str>
+			<Str sr="arg1" ve="3">0</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">现在时间是早上八点整，准备好一天的番茄，好的开始是成功的一半。 小爱提醒您|关注图像，关注时间，关注任务。</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>559</code>
+			<Str sr="arg0" ve="3">现在时间是早上八点整，准备好一天的番茄，好的开始是成功的一半。 小爱提醒您|关注图像，关注时间，关注任务。</Str>
+			<Str sr="arg1" ve="3">com.xiaomi.mibrain.speech:zho-</Str>
+			<Int sr="arg2" val="3"/>
+			<Int sr="arg3" val="5"/>
+			<Int sr="arg4" val="4"/>
+			<Int sr="arg5" val="1"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>235</code>
+			<label>键盘灯</label>
+			<Int sr="arg0" val="1"/>
+			<Str sr="arg1" ve="3">screen_buttons_turn_on</Str>
+			<Str sr="arg2" ve="3">=:=toggle=:=</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">键盘灯变换成功</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+	</Task>
+</TaskerData>

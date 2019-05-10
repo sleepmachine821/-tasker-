@@ -1,0 +1,37 @@
+<TaskerData sr="" dvi="1" tv="5.7.1">
+	<Task sr="task42">
+		<cdate>1557053842972</cdate>
+		<edate>1557410085178</edate>
+		<id>42</id>
+		<nme>关键思路集合2.0</nme>
+		<Action sr="act0" ve="7">
+			<code>369</code>
+			<label>变量随机更换</label>
+			<Str sr="arg0" ve="3">%Wallpaper</Str>
+			<Int sr="arg1" val="4"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>123</code>
+			<label>获取文件数命令</label>
+			<Str sr="arg0" ve="3">ls -l |grep "^-"|wc -l</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3">%Wallpaper</Str>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>547</code>
+			<label>计算当前秒数</label>
+			<Str sr="arg0" ve="3">%S60</Str>
+			<Str sr="arg1" ve="3">%TIMES % 60</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Img sr="icn" ve="2">
+			<nme>mw_image_blur_linear</nme>
+			<tint>-1</tint>
+		</Img>
+	</Task>
+</TaskerData>

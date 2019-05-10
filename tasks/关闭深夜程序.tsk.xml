@@ -1,0 +1,46 @@
+<TaskerData sr="" dvi="1" tv="5.7.1">
+	<Task sr="task99">
+		<cdate>1341370249523</cdate>
+		<edate>1557329739226</edate>
+		<id>99</id>
+		<nme>关闭深夜程序</nme>
+		<Action sr="act0" ve="7">
+			<code>30</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="21"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>18</code>
+			<App sr="arg0">
+				<appClass>com.kugou.android.app.splash.SplashActivity</appClass>
+				<appPkg>com.kugou.android</appPkg>
+				<label>酷狗音乐</label>
+			</App>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>18</code>
+			<App sr="arg0">
+				<appClass>com.netease.cloudmusic.activity.LoadingActivity</appClass>
+				<appPkg>com.netease.cloudmusic</appPkg>
+				<label>网易云音乐</label>
+			</App>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>18</code>
+			<App sr="arg0">
+				<appClass>bubei.tingshu.listen.guide.ui.activity.LOGOActivity</appClass>
+				<appPkg>bubei.tingshu</appPkg>
+				<label>懒人听书</label>
+			</App>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>16</code>
+		</Action>
+	</Task>
+</TaskerData>
