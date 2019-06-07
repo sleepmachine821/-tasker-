@@ -14,81 +14,30 @@
 			<Str sr="arg2" ve="3">1</Str>
 		</State>
 	</Profile>
-	<Profile sr="prof104" ve="2">
-		<cdate>1557839230321</cdate>
-		<edate>1556931073438</edate>
-		<flags>2</flags>
-		<id>104</id>
-		<mid0>90</mid0>
-		<nme>balance mode</nme>
-		<Event sr="con0" ve="2">
-			<code>208</code>
-		</Event>
-	</Profile>
-	<Profile sr="prof105" ve="2">
-		<cdate>1557839230330</cdate>
-		<edate>1556931072319</edate>
-		<flags>2</flags>
-		<id>105</id>
-		<mid0>94</mid0>
-		<nme>powersave mode</nme>
-		<Event sr="con0" ve="2">
-			<code>210</code>
-		</Event>
-	</Profile>
-	<Profile sr="prof106" ve="2">
-		<cdate>1557839230341</cdate>
-		<edate>1556928293857</edate>
-		<flags>2</flags>
-		<id>106</id>
-		<limit>true</limit>
-		<mid0>96</mid0>
-		<nme>standby mode</nme>
-		<Event sr="con0" ve="2">
-			<code>210</code>
-		</Event>
-	</Profile>
-	<Profile sr="prof107" ve="2">
-		<cdate>1557839230355</cdate>
-		<edate>1556928272671</edate>
-		<flags>18</flags>
-		<id>107</id>
-		<limit>true</limit>
-		<mid0>102</mid0>
-		<mid1>90</mid1>
-		<nme>fast mode</nme>
-		<App sr="con0" ve="2">
-			<cls0>com.epicgames.ue4.SplashActivity</cls0>
-			<flags>3</flags>
-			<label0>绝地求生 刺激战场</label0>
-			<pkg0>com.tencent.tmgp.pubgmhd</pkg0>
-		</App>
-	</Profile>
-	<Profile sr="prof108" ve="2">
-		<cdate>1557839230367</cdate>
-		<edate>1557840340262</edate>
-		<flags>18</flags>
-		<id>108</id>
-		<mid0>101</mid0>
-		<mid1>90</mid1>
-		<nme>performance mode</nme>
-		<App sr="con0" ve="2">
-			<cls0>com.tencent.tmgp.sgame.SGameActivity</cls0>
-			<flags>3</flags>
-			<label0>王者荣耀</label0>
-			<pkg0>com.tencent.tmgp.sgame</pkg0>
-		</App>
-	</Profile>
 	<Profile sr="prof109" ve="2">
-		<cdate>1557839230380</cdate>
-		<edate>1556931070338</edate>
+		<cdate>1558453512713</cdate>
+		<edate>1558453577824</edate>
+		<flags>2</flags>
 		<id>109</id>
-		<mid0>103</mid0>
-		<nme>-= Dynamic-WIPE v5.0 =-</nme>
-		<Event sr="con0" ve="2">
-			<code>411</code>
-			<pri>0</pri>
-		</Event>
+		<mid0>108</mid0>
+		<nme>提醒牢记目标</nme>
+		<Day sr="con0">
+			<wday0>1</wday0>
+		</Day>
+	</Profile>
+	<Profile sr="prof119" ve="2">
+		<cdate>1557891729480</cdate>
+		<edate>1557891846185</edate>
+		<flags>2</flags>
+		<id>119</id>
+		<mid0>118</mid0>
+		<nme>自动备份</nme>
+		<Time sr="con0">
+			<fh>12</fh>
+			<fm>30</fm>
+			<th>12</th>
+			<tm>30</tm>
+		</Time>
 	</Profile>
 	<Profile sr="prof12" ve="2">
 		<cdate>1557167980450</cdate>
@@ -105,11 +54,69 @@
 			<tm>39</tm>
 		</Time>
 	</Profile>
+	<Profile sr="prof120" ve="2">
+		<cdate>1557932574752</cdate>
+		<edate>1557932882043</edate>
+		<flags>2</flags>
+		<id>120</id>
+		<mid0>121</mid0>
+		<nme>同步开关</nme>
+		<Time sr="con0">
+			<fh>9</fh>
+			<fm>5</fm>
+			<rep>1</rep>
+			<repval>5</repval>
+			<th>23</th>
+			<tm>10</tm>
+		</Time>
+	</Profile>
+	<Profile sr="prof123" ve="2">
+		<cdate>1558454256547</cdate>
+		<edate>1558516467853</edate>
+		<flags>2</flags>
+		<id>123</id>
+		<mid0>122</mid0>
+		<nme>夜晚听着睡觉</nme>
+		<Time sr="con0">
+			<fh>0</fh>
+			<fm>30</fm>
+			<th>0</th>
+			<tm>30</tm>
+		</Time>
+	</Profile>
+	<Profile sr="prof127" ve="2">
+		<cdate>1558482279531</cdate>
+		<edate>1558482279533</edate>
+		<flags>2</flags>
+		<id>127</id>
+		<mid0>126</mid0>
+		<nme>听早间新闻</nme>
+		<Time sr="con0">
+			<fh>8</fh>
+			<fm>10</fm>
+			<th>8</th>
+			<tm>10</tm>
+		</Time>
+	</Profile>
+	<Profile sr="prof13" ve="2">
+		<cdate>1558237725812</cdate>
+		<edate>1558539354033</edate>
+		<flags>2</flags>
+		<id>13</id>
+		<mid0>26</mid0>
+		<nme>充电结束</nme>
+		<State sr="con0" ve="2">
+			<code>10</code>
+			<pin>true</pin>
+			<Int sr="arg0" val="0"/>
+		</State>
+	</Profile>
 	<Profile sr="prof17" ve="2">
 		<cdate>1556322625401</cdate>
-		<edate>1557551195308</edate>
+		<edate>1558110853405</edate>
 		<flags>2</flags>
 		<id>17</id>
+		<limit>true</limit>
 		<mid0>18</mid0>
 		<Event sr="con0" ve="2">
 			<code>450</code>
@@ -119,7 +126,7 @@
 	</Profile>
 	<Profile sr="prof2" ve="2">
 		<cdate>1557808878116</cdate>
-		<edate>1557808904673</edate>
+		<edate>1557932992390</edate>
 		<flags>2</flags>
 		<id>2</id>
 		<mid0>63</mid0>
@@ -156,62 +163,34 @@
 			<Int sr="arg0" val="0"/>
 		</State>
 	</Profile>
-	<Profile sr="prof26" ve="2">
-		<cdate>1557304928596</cdate>
-		<edate>1557305468315</edate>
-		<flags>2</flags>
-		<id>26</id>
-		<limit>true</limit>
-		<mid0>14</mid0>
-		<Event sr="con0" ve="2">
-			<code>461</code>
-			<App sr="arg0"/>
-			<Str sr="arg1" ve="3"/>
-			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Str sr="arg5" ve="3"/>
-			<Str sr="arg6" ve="3"/>
-			<Int sr="arg7" val="0"/>
-		</Event>
-	</Profile>
-	<Profile sr="prof27" ve="2">
-		<cdate>1557203058838</cdate>
-		<edate>1557796068338</edate>
-		<flags>2</flags>
-		<id>27</id>
-		<limit>true</limit>
-		<mid0>14</mid0>
-		<Event sr="con0" ve="2">
-			<code>1000</code>
-		</Event>
-	</Profile>
 	<Profile sr="prof32" ve="2">
 		<cdate>1557424868578</cdate>
-		<edate>1557424958089</edate>
+		<edate>1558390066505</edate>
 		<flags>2</flags>
 		<id>32</id>
 		<mid0>33</mid0>
+		<nme>关机</nme>
 		<Time sr="con0">
-			<fh>2</fh>
+			<fh>3</fh>
 			<fm>45</fm>
-			<th>2</th>
+			<th>3</th>
 			<tm>45</tm>
 		</Time>
 	</Profile>
 	<Profile sr="prof35" ve="2">
-		<cdate>1557565688688</cdate>
-		<edate>1557730200855</edate>
+		<cdate>1558244001974</cdate>
+		<edate>1558302552120</edate>
 		<flags>2</flags>
 		<id>35</id>
-		<limit>true</limit>
-		<mid0>37</mid0>
-		<Loc sr="con0">
-			<cname>寝室</cname>
-			<lat>42.04795455932617</lat>
-			<long>121.66218566894531</long>
-			<rad>100.0</rad>
-		</Loc>
+		<mid0>14</mid0>
+		<nme>显示音量级别</nme>
+		<Event sr="con0" ve="2">
+			<code>3050</code>
+			<pri>0</pri>
+			<Str sr="arg0" ve="3">%VOLM</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="0"/>
+		</Event>
 	</Profile>
 	<Profile sr="prof36" ve="2">
 		<cdate>1557623324710</cdate>
@@ -242,30 +221,22 @@
 		</Time>
 	</Profile>
 	<Profile sr="prof44" ve="2">
-		<cdate>1557215637204</cdate>
-		<edate>1557215703700</edate>
+		<cdate>1558376333771</cdate>
+		<edate>1558510408676</edate>
 		<flags>2</flags>
 		<id>44</id>
-		<limit>true</limit>
-		<mid0>14</mid0>
-		<Event sr="con0" ve="2">
-			<code>801067335</code>
-			<pri>0</pri>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<com.twofortyfouram.locale.intent.extra.BLURB>~REM</com.twofortyfouram.locale.intent.extra.BLURB>
-					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
-					<com.urbandroid.sleep.taskerplugin.extra.EVENT>com.urbandroid.sleep.LUCID_CUE_ACTION</com.urbandroid.sleep.taskerplugin.extra.EVENT>
-					<com.urbandroid.sleep.taskerplugin.extra.EVENT-type>java.lang.String</com.urbandroid.sleep.taskerplugin.extra.EVENT-type>
-					<com.urbandroid.sleep.taskerplugin.extra.INT_VERSION_CODE>21631</com.urbandroid.sleep.taskerplugin.extra.INT_VERSION_CODE>
-					<com.urbandroid.sleep.taskerplugin.extra.INT_VERSION_CODE-type>java.lang.Integer</com.urbandroid.sleep.taskerplugin.extra.INT_VERSION_CODE-type>
-					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
-					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
-				</Vals>
-			</Bundle>
-			<Str sr="arg1" ve="3">com.urbandroid.sleep</Str>
-			<Str sr="arg2" ve="3">com.urbandroid.sleep.addon.taskerplugin.ui.EditEventActivity</Str>
-		</Event>
+		<mid0>31</mid0>
+		<nme>io计算</nme>
+		<State sr="con0" ve="2">
+			<code>10</code>
+			<pin>true</pin>
+			<Int sr="arg0" val="0"/>
+		</State>
+		<State sr="con1" ve="2">
+			<code>141</code>
+			<Int sr="arg0" val="410"/>
+			<Int sr="arg1" val="500"/>
+		</State>
 	</Profile>
 	<Profile sr="prof46" ve="2">
 		<cdate>1557060181953</cdate>
@@ -294,11 +265,11 @@
 	</Profile>
 	<Profile sr="prof52" ve="2">
 		<cdate>1557290770700</cdate>
-		<edate>1557290792428</edate>
+		<edate>1558237695191</edate>
 		<flags>2</flags>
 		<id>52</id>
 		<mid0>51</mid0>
-		<nme>充电判断</nme>
+		<nme>充电开始判断</nme>
 		<State sr="con0" ve="2">
 			<code>10</code>
 			<Int sr="arg0" val="0"/>
@@ -459,51 +430,50 @@
 	</Profile>
 	<Project sr="proj0" ve="2">
 		<cdate>1340973630649</cdate>
-		<mdate>1557862444896</mdate>
+		<mdate>1558482297329</mdate>
 		<name>基础</name>
-		<pids>17,12,27,44,26,35,2</pids>
-		<scenes>选择UI,显示文字</scenes>
-		<tids>63,110,14,111,54</tids>
+		<pids>17</pids>
+		<tids>37</tids>
 		<Img sr="icon" ve="2">
 			<nme>hl_aaa_ext_home</nme>
 		</Img>
 	</Project>
 	<Project sr="proj1" ve="2">
+		<cdate>1557933143827</cdate>
+		<mdate>1558450792666</mdate>
+		<name>手动任务</name>
+		<pids>12</pids>
+		<scenes>扫描按钮,显示指定颜色css,显示随机颜色,负载悬浮窗,显示文字,SelectSOC,日志输入器</scenes>
+		<tids>30,43,56,28,50,5,11,3,53,29,34,49,77,80,116,54,117,114,110,60,86,90,94,96,97,101,102,103,107</tids>
+		<Img sr="icon" ve="2">
+			<nme>mw_action_gavel</nme>
+		</Img>
+	</Project>
+	<Project sr="proj2" ve="2">
 		<cdate>1556379841674</cdate>
-		<mdate>1557735048311</mdate>
+		<mdate>1558563215475</mdate>
 		<name>简单任务</name>
-		<pids>82,57,92,10,98,85,38,20,25,32,36</pids>
-		<scenes>扫描按钮,显示指定颜色css,显示随机颜色</scenes>
-		<tids>28,50,11,3,53,29,83,34,99,58,41,79,87,9,22,23,30,43,49,56,59,77,80</tids>
+		<pids>82,57,92,10,98,85,38,20,25,32,36,2,119,120,35,44,109,123,127</pids>
+		<scenes>校园网登录UI,夜听眠,通用选择框</scenes>
+		<tids>83,99,58,41,79,87,9,22,23,59,63,118,121,14,31,108,122,126</tids>
 		<Img sr="icon" ve="2">
 			<nme>mw_action_done</nme>
 		</Img>
 	</Project>
-	<Project sr="proj2" ve="2">
+	<Project sr="proj3" ve="2">
 		<cdate>1557045152416</cdate>
-		<mdate>1557492646050</mdate>
+		<mdate>1558519292469</mdate>
 		<name>重任务</name>
-		<pids>84,8,71,88,7,46,52</pids>
-		<scenes>关闭间歇闹钟,播放音乐,播放音乐2.0,番茄钟输入记录v4.0</scenes>
-		<tids>42,91,6,81,5,45,75,89,39,51</tids>
+		<pids>84,8,71,88,7,46,52,13</pids>
+		<scenes>播放音乐2.0,番茄钟输入记录v4.0,间歇闹钟</scenes>
+		<tids>42,91,6,81,45,75,89,39,51,26</tids>
 		<Img sr="icon" ve="2">
 			<nme>mw_action_done_all</nme>
 		</Img>
 	</Project>
-	<Project sr="proj3" ve="2">
-		<cdate>1528599543668</cdate>
-		<mdate>1557839230380</mdate>
-		<name>Dynamic WIPE</name>
-		<pids>104,105,106,107,108,109</pids>
-		<scenes>SelectSOC</scenes>
-		<tids>60,86,90,94,96,97,101,102,103</tids>
-		<Img sr="icon" ve="2">
-			<nme>mw_action_settings</nme>
-		</Img>
-	</Project>
 	<Scene sr="sceneSelectSOC">
 		<cdate>1556894252305</cdate>
-		<edate>1557839660949</edate>
+		<edate>1558061597857</edate>
 		<heightLand>-1</heightLand>
 		<heightPort>360</heightPort>
 		<nme>SelectSOC</nme>
@@ -514,7 +484,7 @@
 			<geom>0,0,695,80,283,77,273,102</geom>
 			<Str sr="arg0" ve="3">文字1</Str>
 			<Str sr="arg1" ve="3">请选择设备型号</Str>
-			<Int sr="arg2" val="20"/>
+			<Int sr="arg2" val="18"/>
 			<Int sr="arg3" val="100"/>
 			<Str sr="arg4" ve="3">#91989F</Str>
 			<Str sr="arg5" ve="3"/>
@@ -536,7 +506,7 @@
 		</TextElement>
 		<TextElement sr="elements1" ve="3">
 			<flags>4</flags>
-			<geom>54,130,146,74,103,178,147,109</geom>
+			<geom>5,155,146,74,103,178,147,109</geom>
 			<Str sr="arg0" ve="3">文字2</Str>
 			<Str sr="arg1" ve="3">SOC：</Str>
 			<Int sr="arg2" val="12"/>
@@ -739,7 +709,7 @@
 		<TextElement sr="elements3" ve="3">
 			<clickTask>100</clickTask>
 			<flags>4</flags>
-			<geom>274,277,146,49,393,520,173,99</geom>
+			<geom>274,277,147,74,393,520,173,99</geom>
 			<Str sr="arg0" ve="3">文字3</Str>
 			<Str sr="arg1" ve="3">下载</Str>
 			<Int sr="arg2" val="16"/>
@@ -773,50 +743,62 @@
 			<Str sr="arg7" ve="3"/>
 		</PropertiesElement>
 	</Scene>
-	<Scene sr="scene关闭间歇闹钟">
-		<cdate>1556003931897</cdate>
-		<edate>1557728977619</edate>
-		<heightLand>1080</heightLand>
-		<heightPort>1248</heightPort>
-		<nme>关闭间歇闹钟</nme>
-		<widthLand>702</widthLand>
-		<widthPort>702</widthPort>
-		<ButtonElement sr="elements0" ve="3">
-			<clickTask>4</clickTask>
+	<Scene sr="scene夜听眠">
+		<cdate>1557809015346</cdate>
+		<edate>1558481169530</edate>
+		<heightLand>276</heightLand>
+		<heightPort>240</heightPort>
+		<nme>夜听眠</nme>
+		<widthLand>450</widthLand>
+		<widthPort>306</widthPort>
+		<TextElement sr="elements0" ve="3">
 			<flags>4</flags>
-			<geom>227,969,272,105,201,802,250,125</geom>
-			<Str sr="arg0" ve="3">按钮2</Str>
-			<Str sr="arg1" ve="3">关闭闹钟</Str>
+			<geom>3,0,299,130,26,0,395,173</geom>
+			<strokeTask>111</strokeTask>
+			<Str sr="arg0" ve="3">文字1</Str>
+			<Str sr="arg1" ve="3">点击跳到fm准备睡觉？</Str>
 			<Int sr="arg2" val="16"/>
-			<Int sr="arg3" val="99"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3">#84000000</Str>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="5"/>
+				<Str sr="arg5" ve="3">#A7000000</Str>
+				<Int sr="arg6" val="20"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+			<StrokeFilter sr="filter2"/>
+		</TextElement>
+		<ButtonElement sr="elements1" ve="3">
+			<clickTask>112</clickTask>
+			<flags>4</flags>
+			<geom>177,132,128,107,249,156,200,120</geom>
+			<Str sr="arg0" ve="3">按钮11</Str>
+			<Str sr="arg1" ve="3">关闭</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
 			<Str sr="arg4" ve="3">#FF000000</Str>
 			<Str sr="arg5" ve="3"/>
 			<Int sr="arg6" val="0"/>
 			<Img sr="arg7" ve="2"/>
 		</ButtonElement>
-		<ButtonElement sr="elements1" ve="3">
-			<clickTask>78</clickTask>
+		<ButtonElement sr="elements2" ve="3">
+			<clickTask>115</clickTask>
 			<flags>4</flags>
-			<geom>178,204,321,273,101,27,475,400</geom>
+			<geom>3,133,128,107,1,156,200,120</geom>
 			<Str sr="arg0" ve="3">按钮1</Str>
-			<Str sr="arg1" ve="3"/>
+			<Str sr="arg1" ve="3">打开</Str>
 			<Int sr="arg2" val="16"/>
 			<Int sr="arg3" val="100"/>
-			<Str sr="arg4" ve="3">#FF21FF08</Str>
-			<Str sr="arg5" ve="3"/>
-			<Int sr="arg6" val="0"/>
-			<Img sr="arg7" ve="2">
-				<nme>mw_action_alarm_off</nme>
-			</Img>
-		</ButtonElement>
-		<ButtonElement sr="elements2" ve="3">
-			<clickTask>16</clickTask>
-			<flags>4</flags>
-			<geom>153,574,400,322,126,502,450,200</geom>
-			<Str sr="arg0" ve="3">按钮21</Str>
-			<Str sr="arg1" ve="3">再睡一会儿</Str>
-			<Int sr="arg2" val="16"/>
-			<Int sr="arg3" val="99"/>
 			<Str sr="arg4" ve="3">#FF000000</Str>
 			<Str sr="arg5" ve="3"/>
 			<Int sr="arg6" val="0"/>
@@ -825,12 +807,15 @@
 		<PropertiesElement sr="props">
 			<Int sr="arg0" val="1"/>
 			<Int sr="arg1" val="0"/>
-			<Str sr="arg2" ve="3">#FF48CC59</Str>
+			<Str sr="arg2" ve="3">#9D000000</Str>
 			<Int sr="arg3" val="0"/>
-			<Str sr="arg4" ve="3">关闭闹钟</Str>
+			<Str sr="arg4" ve="3">选择UI</Str>
 			<Str sr="arg5" ve="3"/>
 			<Img sr="arg6" ve="2"/>
 			<Str sr="arg7" ve="3"/>
+			<LinkClickFilter sr="filter0">
+				<stopEvent>true</stopEvent>
+			</LinkClickFilter>
 		</PropertiesElement>
 	</Scene>
 	<Scene sr="scene扫描按钮">
@@ -891,205 +876,9 @@
 			<Str sr="arg7" ve="3"/>
 		</PropertiesElement>
 	</Scene>
-	<Scene sr="scene播放音乐">
-		<cdate>1556022342982</cdate>
-		<edate>1557817614695</edate>
-		<heightLand>1080</heightLand>
-		<heightPort>800</heightPort>
-		<nme>播放音乐</nme>
-		<widthLand>1000</widthLand>
-		<widthPort>600</widthPort>
-		<ImageElement sr="elements0" ve="2">
-			<flags>4</flags>
-			<geom>0,0,600,800,400,0,600,700</geom>
-			<Str sr="arg0" ve="3">图像1</Str>
-			<Img sr="arg1" ve="2">
-				<uri>content://com.android.providers.media.documents/document/image%3A377754</uri>
-			</Img>
-			<Int sr="arg2" val="117"/>
-		</ImageElement>
-		<ListElement sr="elements1">
-			<flags>12</flags>
-			<geom>0,0,600,600,100,77,600,675</geom>
-			<itemclickTask>76</itemclickTask>
-			<Str sr="arg0" ve="3">选项</Str>
-			<Int sr="arg1" val="0"/>
-			<Str sr="arg2" ve="3">#00000000</Str>
-			<Int sr="arg3" val="1"/>
-			<Scene sr="arg4">
-				<Scene sr="val">
-					<cdate>1556062484809</cdate>
-					<edate>1556062484809</edate>
-					<heightLand>167</heightLand>
-					<heightPort>117</heightPort>
-					<nme>Builtin Item Layout</nme>
-					<widthLand>738</widthLand>
-					<widthPort>696</widthPort>
-					<ImageElement sr="elements0" ve="2">
-						<flags>5</flags>
-						<geom>5,5,100,100,0,0,158,158</geom>
-						<Str sr="arg0" ve="3">Icon</Str>
-						<Img sr="arg1" ve="2"/>
-						<Int sr="arg2" val="255"/>
-						<RectElement sr="background">
-							<flags>4</flags>
-							<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
-							<Str sr="arg0" ve="3"/>
-							<Int sr="arg1" val="0"/>
-							<Str sr="arg2" ve="3"/>
-							<Str sr="arg3" ve="3">#80FFFFFF</Str>
-							<Int sr="arg4" val="0"/>
-							<Str sr="arg5" ve="3">#FF000000</Str>
-							<Int sr="arg6" val="0"/>
-							<Int sr="arg7" val="0"/>
-						</RectElement>
-					</ImageElement>
-					<TextElement sr="elements1" ve="3">
-						<flags>5</flags>
-						<geom>127,0,465,117,156,0,450,158</geom>
-						<Str sr="arg0" ve="3">Label</Str>
-						<Str sr="arg1" ve="3">您呃呃呃额额的</Str>
-						<Int sr="arg2" val="22"/>
-						<Int sr="arg3" val="100"/>
-						<Str sr="arg4" ve="3">#E0FFFFFF</Str>
-						<Str sr="arg5" ve="3"/>
-						<Int sr="arg6" val="3"/>
-						<Int sr="arg7" val="1"/>
-						<Int sr="arg8" val="0"/>
-						<RectElement sr="background">
-							<flags>4</flags>
-							<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
-							<Str sr="arg0" ve="3"/>
-							<Int sr="arg1" val="0"/>
-							<Str sr="arg2" ve="3"/>
-							<Str sr="arg3" ve="3"/>
-							<Int sr="arg4" val="0"/>
-							<Str sr="arg5" ve="3">#FF000000</Str>
-							<Int sr="arg6" val="0"/>
-							<Int sr="arg7" val="0"/>
-						</RectElement>
-					</TextElement>
-					<TextElement sr="elements2" ve="3">
-						<flags>1</flags>
-						<geom>592,0,104,117,606,0,132,158</geom>
-						<Str sr="arg0" ve="3">Index</Str>
-						<Str sr="arg1" ve="3">1.</Str>
-						<Int sr="arg2" val="15"/>
-						<Int sr="arg3" val="100"/>
-						<Str sr="arg4" ve="3">#FFFFFFFF</Str>
-						<Str sr="arg5" ve="3"/>
-						<Int sr="arg6" val="0"/>
-						<Int sr="arg7" val="1"/>
-						<Int sr="arg8" val="0"/>
-					</TextElement>
-					<PropertiesElement sr="props">
-						<Int sr="arg0" val="1"/>
-						<Int sr="arg1" val="0"/>
-						<Str sr="arg2" ve="3">#00000000</Str>
-						<Int sr="arg3" val="0"/>
-						<Str sr="arg4" ve="3">Builtin Item Layout</Str>
-						<Str sr="arg5" ve="3"/>
-						<Img sr="arg6" ve="2"/>
-						<Str sr="arg7" ve="3"/>
-					</PropertiesElement>
-				</Scene>
-			</Scene>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<RectElement sr="background">
-				<flags>4</flags>
-				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
-				<Str sr="arg0" ve="3"/>
-				<Int sr="arg1" val="0"/>
-				<Str sr="arg2" ve="3">#00000000</Str>
-				<Str sr="arg3" ve="3"/>
-				<Int sr="arg4" val="0"/>
-				<Str sr="arg5" ve="3">#FF000000</Str>
-				<Int sr="arg6" val="0"/>
-				<Int sr="arg7" val="0"/>
-			</RectElement>
-			<ListElementItem sr="item0">
-				<label>网易云音乐</label>
-				<Action sr="action" ve="7">
-					<code>20</code>
-					<App sr="arg0">
-						<appClass>com.netease.cloudmusic.activity.LoadingActivity</appClass>
-						<appPkg>com.netease.cloudmusic</appPkg>
-						<label>网易云音乐</label>
-					</App>
-					<Str sr="arg1" ve="3"/>
-					<Int sr="arg2" val="0"/>
-					<Int sr="arg3" val="0"/>
-				</Action>
-				<Img sr="icon" ve="2">
-					<cls>com.netease.cloudmusic.activity.LoadingActivity</cls>
-					<pkg>com.netease.cloudmusic</pkg>
-				</Img>
-			</ListElementItem>
-			<ListElementItem sr="item1">
-				<label>酷狗音乐</label>
-				<Action sr="action" ve="7">
-					<code>20</code>
-					<App sr="arg0">
-						<appClass>com.kugou.android.app.splash.SplashActivity</appClass>
-						<appPkg>com.kugou.android</appPkg>
-						<label>酷狗音乐</label>
-					</App>
-					<Str sr="arg1" ve="3"/>
-					<Int sr="arg2" val="0"/>
-					<Int sr="arg3" val="0"/>
-				</Action>
-				<Img sr="icon" ve="2">
-					<cls>com.kugou.android.app.splash.SplashActivity</cls>
-					<pkg>com.kugou.android</pkg>
-				</Img>
-			</ListElementItem>
-			<ListElementItem sr="item2">
-				<label>QQ音乐</label>
-				<Action sr="action" ve="7">
-					<code>20</code>
-					<se>false</se>
-					<App sr="arg0">
-						<appClass>com.tencent.qqmusic.activity.AppStarterActivity</appClass>
-						<appPkg>com.tencent.qqmusic</appPkg>
-						<label>QQ音乐</label>
-					</App>
-					<Str sr="arg1" ve="3"/>
-					<Int sr="arg2" val="0"/>
-					<Int sr="arg3" val="0"/>
-				</Action>
-				<Img sr="icon" ve="2">
-					<cls>com.tencent.qqmusic.activity.AppStarterActivity</cls>
-					<pkg>com.tencent.qqmusic</pkg>
-				</Img>
-			</ListElementItem>
-			<ListElementItem sr="item3">
-				<label>返回</label>
-				<Action sr="action" ve="7">
-					<code>49</code>
-					<Str sr="arg0" ve="3">播放音乐</Str>
-				</Action>
-				<Img sr="icon" ve="2">
-					<nme>mw_action_delete_forever</nme>
-				</Img>
-			</ListElementItem>
-		</ListElement>
-		<PropertiesElement sr="props">
-			<keyTask>13</keyTask>
-			<Int sr="arg0" val="1"/>
-			<Int sr="arg1" val="0"/>
-			<Str sr="arg2" ve="3">#00000000</Str>
-			<Int sr="arg3" val="0"/>
-			<Str sr="arg4" ve="3">播放音乐</Str>
-			<Str sr="arg5" ve="3"/>
-			<Img sr="arg6" ve="2"/>
-			<Str sr="arg7" ve="3"/>
-			<LinkClickFilter sr="filter0"/>
-		</PropertiesElement>
-	</Scene>
 	<Scene sr="scene播放音乐2.0">
 		<cdate>1556022342982</cdate>
-		<edate>1557818368551</edate>
+		<edate>1558563857208</edate>
 		<heightLand>1080</heightLand>
 		<heightPort>1080</heightPort>
 		<nme>播放音乐2.0</nme>
@@ -1120,7 +909,6 @@
 			<flags>12</flags>
 			<geom>175,34,533,523,211,152,562,500</geom>
 			<itemclickTask>47</itemclickTask>
-			<itemlongclickTask>31</itemlongclickTask>
 			<Str sr="arg0" ve="3">选择</Str>
 			<Int sr="arg1" val="0"/>
 			<Str sr="arg2" ve="3">%color</Str>
@@ -1275,7 +1063,7 @@
 				<label>返回</label>
 				<Action sr="action" ve="7">
 					<code>49</code>
-					<Str sr="arg0" ve="3">播放音乐</Str>
+					<Str sr="arg0" ve="3">播放音乐2.0</Str>
 				</Action>
 				<Img sr="icon" ve="2">
 					<nme>mw_action_delete_forever</nme>
@@ -1293,6 +1081,107 @@
 			<Img sr="arg6" ve="2"/>
 			<Str sr="arg7" ve="3"/>
 			<LinkClickFilter sr="filter0"/>
+		</PropertiesElement>
+	</Scene>
+	<Scene sr="scene日志输入器">
+		<cdate>1556247027310</cdate>
+		<edate>1558482081177</edate>
+		<heightLand>500</heightLand>
+		<heightPort>747</heightPort>
+		<nme>日志输入器</nme>
+		<widthLand>1500</widthLand>
+		<widthPort>1008</widthPort>
+		<EditTextElement sr="elements0" ve="3">
+			<flags>12</flags>
+			<geom>103,9,782,340,475,0,525,200</geom>
+			<valueselectedTask>106</valueselectedTask>
+			<Str sr="arg0" ve="3">文本框1</Str>
+			<Str sr="arg1" ve="3">%Mylog</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="525"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3">#83000000</Str>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="3"/>
+				<Str sr="arg5" ve="3">#FFFFFFFF</Str>
+				<Int sr="arg6" val="10"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</EditTextElement>
+		<ButtonElement sr="elements1" ve="3">
+			<clickTask>76</clickTask>
+			<flags>4</flags>
+			<geom>200,397,175,175,100,125,250,175</geom>
+			<Str sr="arg0" ve="3">按钮1</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF002BFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2">
+				<nme>mw_editor_vertical_align_bottom</nme>
+			</Img>
+		</ButtonElement>
+		<ButtonElement sr="elements2" ve="3">
+			<clickTask>104</clickTask>
+			<flags>4</flags>
+			<geom>613,397,170,170,1125,125,225,175</geom>
+			<Str sr="arg0" ve="3">按钮11</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF002BFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2">
+				<nme>mw_editor_format_clear</nme>
+			</Img>
+		</ButtonElement>
+		<TextElement sr="elements3" ve="3">
+			<flags>4</flags>
+			<geom>176,567,209,100,125,300,209,100</geom>
+			<Str sr="arg0" ve="3">文字1</Str>
+			<Str sr="arg1" ve="3">记录</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements4" ve="3">
+			<flags>4</flags>
+			<geom>588,567,224,98,1125,300,209,100</geom>
+			<Str sr="arg0" ve="3">文字11</Str>
+			<Str sr="arg1" ve="3">返回</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<PropertiesElement sr="props">
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#E9009688</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3">输入文字保存</Str>
+			<Str sr="arg5" ve="3"/>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
 		</PropertiesElement>
 	</Scene>
 	<Scene sr="scene显示指定颜色css">
@@ -1510,15 +1399,15 @@
 	</Scene>
 	<Scene sr="scene显示文字">
 		<cdate>1556622715407</cdate>
-		<edate>1557857236128</edate>
-		<heightLand>-1</heightLand>
+		<edate>1557933924229</edate>
+		<heightLand>420</heightLand>
 		<heightPort>420</heightPort>
 		<nme>显示文字</nme>
-		<widthLand>-1</widthLand>
+		<widthLand>486</widthLand>
 		<widthPort>486</widthPort>
 		<OvalElement sr="elements0">
 			<flags>4</flags>
-			<geom>0,0,122,129,236,428,337,344</geom>
+			<geom>0,0,122,129,149,76,337,344</geom>
 			<Str sr="arg0" ve="3">椭圆1</Str>
 			<Int sr="arg1" val="5"/>
 			<Str sr="arg2" ve="3">#FF00FF17</Str>
@@ -1528,7 +1417,7 @@
 		</OvalElement>
 		<TextElement sr="elements1" ve="3">
 			<flags>4</flags>
-			<geom>0,11,477,382,104,549,523,347</geom>
+			<geom>0,23,477,335,0,73,486,347</geom>
 			<Str sr="arg0" ve="3">文字1</Str>
 			<Str sr="arg1" ve="3">%ALINSHI</Str>
 			<Int sr="arg2" val="8"/>
@@ -1564,7 +1453,7 @@
 	</Scene>
 	<Scene sr="scene显示随机颜色">
 		<cdate>1557531313292</cdate>
-		<edate>1557817898016</edate>
+		<edate>1558565004451</edate>
 		<heightLand>-1</heightLand>
 		<heightPort>1000</heightPort>
 		<nme>显示随机颜色</nme>
@@ -1608,9 +1497,84 @@
 			<Str sr="arg7" ve="3"/>
 		</PropertiesElement>
 	</Scene>
+	<Scene sr="scene校园网登录UI">
+		<cdate>1557809015346</cdate>
+		<edate>1558060516620</edate>
+		<heightLand>276</heightLand>
+		<heightPort>240</heightPort>
+		<nme>校园网登录UI</nme>
+		<widthLand>450</widthLand>
+		<widthPort>306</widthPort>
+		<TextElement sr="elements0" ve="3">
+			<flags>4</flags>
+			<geom>3,0,299,130,26,0,395,173</geom>
+			<strokeTask>113</strokeTask>
+			<Str sr="arg0" ve="3">文字1</Str>
+			<Str sr="arg1" ve="3">连接校园网？</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3">#84000000</Str>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="5"/>
+				<Str sr="arg5" ve="3">#A7000000</Str>
+				<Int sr="arg6" val="20"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+			<StrokeFilter sr="filter2"/>
+		</TextElement>
+		<ButtonElement sr="elements1" ve="3">
+			<clickTask>64</clickTask>
+			<flags>4</flags>
+			<geom>177,132,128,107,249,156,200,120</geom>
+			<Str sr="arg0" ve="3">按钮11</Str>
+			<Str sr="arg1" ve="3">关闭</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2"/>
+		</ButtonElement>
+		<ButtonElement sr="elements2" ve="3">
+			<clickTask>65</clickTask>
+			<flags>4</flags>
+			<geom>3,133,128,107,1,156,200,120</geom>
+			<Str sr="arg0" ve="3">按钮1</Str>
+			<Str sr="arg1" ve="3">打开</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2"/>
+		</ButtonElement>
+		<PropertiesElement sr="props">
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#9D000000</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3">选择UI</Str>
+			<Str sr="arg5" ve="3"/>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
+			<LinkClickFilter sr="filter0">
+				<stopEvent>true</stopEvent>
+			</LinkClickFilter>
+		</PropertiesElement>
+	</Scene>
 	<Scene sr="scene番茄钟输入记录v4.0">
 		<cdate>1556247027310</cdate>
-		<edate>1557728888896</edate>
+		<edate>1558563865425</edate>
 		<heightLand>500</heightLand>
 		<heightPort>747</heightPort>
 		<nme>番茄钟输入记录v4.0</nme>
@@ -1619,7 +1583,7 @@
 		<EditTextElement sr="elements0" ve="3">
 			<flags>12</flags>
 			<geom>103,9,782,340,475,0,525,200</geom>
-			<valueselectedTask>72</valueselectedTask>
+			<valueselectedTask>27</valueselectedTask>
 			<Str sr="arg0" ve="3">文本框1</Str>
 			<Str sr="arg1" ve="3">%FQie</Str>
 			<Int sr="arg2" val="16"/>
@@ -1748,32 +1712,80 @@
 			<Str sr="arg7" ve="3"/>
 		</PropertiesElement>
 	</Scene>
-	<Scene sr="scene选择UI">
-		<cdate>1557809015346</cdate>
-		<edate>1557856654144</edate>
-		<heightLand>384</heightLand>
-		<heightPort>384</heightPort>
-		<nme>选择UI</nme>
-		<widthLand>666</widthLand>
-		<widthPort>666</widthPort>
-		<ButtonElement sr="elements0" ve="3">
-			<clickTask>65</clickTask>
+	<Scene sr="scene负载悬浮窗">
+		<cdate>1557877175747</cdate>
+		<edate>1557905795410</edate>
+		<heightLand>-1</heightLand>
+		<heightPort>120</heightPort>
+		<nme>负载悬浮窗</nme>
+		<widthLand>-1</widthLand>
+		<widthPort>200</widthPort>
+		<TextElement sr="elements0" ve="3">
 			<flags>4</flags>
-			<geom>49,228,200,120,49,228,200,120</geom>
-			<Str sr="arg0" ve="3">按钮1</Str>
-			<Str sr="arg1" ve="3">打开</Str>
-			<Int sr="arg2" val="16"/>
-			<Int sr="arg3" val="100"/>
-			<Str sr="arg4" ve="3">#FF000000</Str>
-			<Str sr="arg5" ve="3"/>
-			<Int sr="arg6" val="0"/>
-			<Img sr="arg7" ve="2"/>
-		</ButtonElement>
-		<TextElement sr="elements1" ve="3">
-			<flags>4</flags>
-			<geom>123,31,395,173,123,31,395,173</geom>
+			<geom>0,0,200,119,0,0,135,120</geom>
 			<Str sr="arg0" ve="3">文字1</Str>
-			<Str sr="arg1" ve="3">打开谷歌浏览器连接校园网？</Str>
+			<Str sr="arg1" ve="3">CPU0 %Cpuinfo_cur_freq
+CPU2 %Cpuinfo_cur_freq2
+GPU %Gpucur_freq
+gpuload %Gpu_load</Str>
+			<Int sr="arg2" val="6"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="5"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<PropertiesElement sr="props">
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#7D000000</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3">临时</Str>
+			<Str sr="arg5" ve="3"/>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
+		</PropertiesElement>
+	</Scene>
+	<Scene sr="scene通用选择框">
+		<cdate>1557809015346</cdate>
+		<edate>1558571204961</edate>
+		<heightLand>276</heightLand>
+		<heightPort>240</heightPort>
+		<nme>通用选择框</nme>
+		<widthLand>450</widthLand>
+		<widthPort>306</widthPort>
+		<RectElement sr="elements0">
+			<flags>4</flags>
+			<geom>0,0,306,239,0,0,306,239</geom>
+			<Str sr="arg0" ve="3">背景矩形</Str>
+			<Int sr="arg1" val="5"/>
+			<Str sr="arg2" ve="3">#D15A4B4B</Str>
+			<Str sr="arg3" ve="3">#846A6666</Str>
+			<Int sr="arg4" val="1"/>
+			<Str sr="arg5" ve="3">#B5000000</Str>
+			<Int sr="arg6" val="14"/>
+			<Int sr="arg7" val="0"/>
+		</RectElement>
+		<TextElement sr="elements1" ve="3">
+			<clickTask>72</clickTask>
+			<flags>4</flags>
+			<geom>3,0,299,130,26,0,395,173</geom>
+			<strokeTask>105</strokeTask>
+			<Str sr="arg0" ve="3">文字1</Str>
+			<Str sr="arg1" ve="3">%Task_work</Str>
 			<Int sr="arg2" val="16"/>
 			<Int sr="arg3" val="100"/>
 			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
@@ -1786,23 +1798,37 @@
 				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
 				<Str sr="arg0" ve="3"/>
 				<Int sr="arg1" val="0"/>
-				<Str sr="arg2" ve="3">#84000000</Str>
+				<Str sr="arg2" ve="3">#00000000</Str>
 				<Str sr="arg3" ve="3"/>
-				<Int sr="arg4" val="5"/>
+				<Int sr="arg4" val="0"/>
 				<Str sr="arg5" ve="3">#A7000000</Str>
-				<Int sr="arg6" val="20"/>
+				<Int sr="arg6" val="14"/>
 				<Int sr="arg7" val="0"/>
 			</RectElement>
+			<StrokeFilter sr="filter2"/>
 		</TextElement>
 		<ButtonElement sr="elements2" ve="3">
-			<clickTask>64</clickTask>
+			<clickTask>124</clickTask>
 			<flags>4</flags>
-			<geom>345,228,200,120,357,229,200,120</geom>
+			<geom>166,130,140,110,249,156,200,120</geom>
 			<Str sr="arg0" ve="3">按钮11</Str>
 			<Str sr="arg1" ve="3">关闭</Str>
 			<Int sr="arg2" val="16"/>
 			<Int sr="arg3" val="100"/>
-			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg4" ve="3">#FFFF0000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2"/>
+		</ButtonElement>
+		<ButtonElement sr="elements3" ve="3">
+			<clickTask>125</clickTask>
+			<flags>4</flags>
+			<geom>0,130,140,110,1,156,200,120</geom>
+			<Str sr="arg0" ve="3">按钮1</Str>
+			<Str sr="arg1" ve="3">来吧</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF1188FF</Str>
 			<Str sr="arg5" ve="3"/>
 			<Int sr="arg6" val="0"/>
 			<Img sr="arg7" ve="2"/>
@@ -1813,6 +1839,69 @@
 			<Str sr="arg2" ve="3">#00000000</Str>
 			<Int sr="arg3" val="0"/>
 			<Str sr="arg4" ve="3">选择UI</Str>
+			<Str sr="arg5" ve="3"/>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
+			<LinkClickFilter sr="filter0">
+				<stopEvent>true</stopEvent>
+			</LinkClickFilter>
+		</PropertiesElement>
+	</Scene>
+	<Scene sr="scene间歇闹钟">
+		<cdate>1556003931897</cdate>
+		<edate>1558563868662</edate>
+		<heightLand>1080</heightLand>
+		<heightPort>1248</heightPort>
+		<nme>间歇闹钟</nme>
+		<widthLand>702</widthLand>
+		<widthPort>702</widthPort>
+		<ButtonElement sr="elements0" ve="3">
+			<clickTask>4</clickTask>
+			<flags>4</flags>
+			<geom>227,969,272,105,201,802,250,125</geom>
+			<Str sr="arg0" ve="3">按钮2</Str>
+			<Str sr="arg1" ve="3">关闭闹钟</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="99"/>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2"/>
+		</ButtonElement>
+		<ButtonElement sr="elements1" ve="3">
+			<clickTask>78</clickTask>
+			<flags>4</flags>
+			<geom>178,204,321,273,101,27,475,400</geom>
+			<Str sr="arg0" ve="3">按钮1</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF21FF08</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2">
+				<nme>mw_action_alarm_off</nme>
+			</Img>
+		</ButtonElement>
+		<ButtonElement sr="elements2" ve="3">
+			<clickTask>16</clickTask>
+			<flags>4</flags>
+			<geom>153,574,400,322,126,502,450,200</geom>
+			<Str sr="arg0" ve="3">按钮21</Str>
+			<Str sr="arg1" ve="3">再睡一会儿</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="99"/>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2"/>
+		</ButtonElement>
+		<PropertiesElement sr="props">
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#FF48CC59</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3">关闭闹钟</Str>
 			<Str sr="arg5" ve="3"/>
 			<Img sr="arg6" ve="2"/>
 			<Str sr="arg7" ve="3"/>
@@ -1983,7 +2072,7 @@ rm -rf /storage/emulated/0/Tasker/WIPE/tmp</Str>
 	</Task>
 	<Task sr="task101">
 		<cdate>1528600883316</cdate>
-		<edate>1557850267873</edate>
+		<edate>1558061296692</edate>
 		<id>101</id>
 		<nme>游戏模式</nme>
 		<pri>100</pri>
@@ -2045,7 +2134,7 @@ rm -rf /storage/emulated/0/Tasker/WIPE/tmp</Str>
 	</Task>
 	<Task sr="task102">
 		<cdate>1528600956043</cdate>
-		<edate>1556894075202</edate>
+		<edate>1558109511801</edate>
 		<id>102</id>
 		<nme>火力全开</nme>
 		<pri>100</pri>
@@ -2107,7 +2196,7 @@ rm -rf /storage/emulated/0/Tasker/WIPE/tmp</Str>
 	</Task>
 	<Task sr="task103">
 		<cdate>1528601066929</cdate>
-		<edate>1557840010400</edate>
+		<edate>1558061217615</edate>
 		<id>103</id>
 		<nme>- shØut</nme>
 		<pri>100</pri>
@@ -2147,9 +2236,102 @@ rm -rf /storage/emulated/0/Tasker/WIPE/tmp</Str>
 			<nme>hl_aaa_ext_coffee</nme>
 		</Img>
 	</Task>
+	<Task sr="task104">
+		<cdate>1556262790045</cdate>
+		<edate>1556262790045</edate>
+		<id>104</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>61</code>
+			<Int sr="arg0">
+				<var>%AZhend</var>
+			</Int>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>48</code>
+			<Str sr="arg0" ve="3">日志输入器</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task105">
+		<cdate>1557878327325</cdate>
+		<edate>1557878327325</edate>
+		<id>105</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>137</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3">%Task</Str>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">通用选择框</Str>
+		</Action>
+	</Task>
+	<Task sr="task106">
+		<cdate>1558415456625</cdate>
+		<edate>1558415456625</edate>
+		<id>106</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Mylog</Str>
+			<Str sr="arg1" ve="3">%new_val</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task107">
+		<cdate>1558415909369</cdate>
+		<edate>1558480848070</edate>
+		<id>107</id>
+		<nme>写日志</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>47</code>
+			<Str sr="arg0" ve="3">日志输入器</Str>
+			<Int sr="arg1" val="3"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="18"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="1"/>
+		</Action>
+	</Task>
+	<Task sr="task108">
+		<cdate>1556663277519</cdate>
+		<edate>1558453607667</edate>
+		<id>108</id>
+		<nme>提醒目标印像</nme>
+		<pri>100</pri>
+		<rty>1</rty>
+		<Action sr="act0" ve="7">
+			<code>300</code>
+			<label>用于测试和验证临时想出的任务，尽快清空保证下次使用</label>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>523</code>
+			<Str sr="arg0" ve="3">提醒</Str>
+			<Str sr="arg1" ve="3">加深目标思维导图印象，云笔记印象！</Str>
+			<Str sr="arg10" ve="3"/>
+			<Str sr="arg11" ve="3"/>
+			<Img sr="arg2" ve="2">
+				<nme>mw_content_low_priority</nme>
+			</Img>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+			<Str sr="arg9" ve="3"/>
+		</Action>
+	</Task>
 	<Task sr="task11">
 		<cdate>1557301673140</cdate>
-		<edate>1557848739643</edate>
+		<edate>1558060625024</edate>
 		<id>11</id>
 		<nme>朗读按钮</nme>
 		<pri>100</pri>
@@ -2171,37 +2353,15 @@ rm -rf /storage/emulated/0/Tasker/WIPE/tmp</Str>
 	</Task>
 	<Task sr="task110">
 		<cdate>1557849872686</cdate>
-		<edate>1557860935308</edate>
+		<edate>1557887731160</edate>
 		<id>110</id>
 		<nme>键盘灯亮度</nme>
 		<pri>100</pri>
+		<rty>1</rty>
 		<Action sr="act0" ve="7">
 			<code>123</code>
-			<Str sr="arg0" ve="3">echo 5 &gt; /sys/class/leds/red/max_brightness</Str>
-			<Int sr="arg1" val="32"/>
-			<Int sr="arg2" val="1"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Str sr="arg5" ve="3"/>
-		</Action>
-		<Action sr="act1" ve="7">
-			<code>123</code>
-			<Str sr="arg0" ve="3">cat  /sys/class/leds/red/max_brightness</Str>
-			<Int sr="arg1" val="0"/>
-			<Int sr="arg2" val="0"/>
-			<Str sr="arg3" ve="3">%ALINSHI</Str>
-			<Str sr="arg4" ve="3"/>
-			<Str sr="arg5" ve="3"/>
-		</Action>
-		<Action sr="act2" ve="7">
-			<code>548</code>
-			<Str sr="arg0" ve="3">%ALINSHI</Str>
-			<Int sr="arg1" val="0"/>
-		</Action>
-		<Action sr="act3" ve="7">
-			<code>123</code>
-			<Str sr="arg0" ve="3">echo 10 &gt; /sys/class/leds/button-backlight/max_brightness
-echo 0 &gt; /sys/class/leds/button-backlight1/max_brightness</Str>
+			<Str sr="arg0" ve="3">echo 100 &gt; /sys/class/leds/button-backlight/max_brightness
+echo 55 &gt; /sys/class/leds/button-backlight1/max_brightness</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="1"/>
 			<Str sr="arg3" ve="3"/>
@@ -2210,48 +2370,248 @@ echo 0 &gt; /sys/class/leds/button-backlight1/max_brightness</Str>
 		</Action>
 	</Task>
 	<Task sr="task111">
-		<cdate>1557857674202</cdate>
-		<edate>1557862267482</edate>
+		<cdate>1557878327325</cdate>
+		<edate>1557878327325</edate>
 		<id>111</id>
-		<nme>悬浮窗</nme>
-		<pri>100</pri>
-		<Action sr="act0" ve="7">
-			<code>123</code>
-			<Str sr="arg0" ve="3">cat --help</Str>
-			<Int sr="arg1" val="0"/>
-			<Int sr="arg2" val="0"/>
-			<Str sr="arg3" ve="3">%ALINSHI</Str>
-			<Str sr="arg4" ve="3"/>
-			<Str sr="arg5" ve="3"/>
-		</Action>
-		<Action sr="act1" ve="7">
-			<code>548</code>
-			<Str sr="arg0" ve="3">%ALINSHI</Str>
-			<Int sr="arg1" val="0"/>
-		</Action>
-	</Task>
-	<Task sr="task13">
-		<cdate>1556675038004</cdate>
-		<edate>1556675038004</edate>
-		<id>13</id>
 		<pri>102</pri>
 		<Action sr="act0" ve="7">
 			<code>49</code>
-			<Str sr="arg0" ve="3">播放音乐</Str>
+			<Str sr="arg0" ve="3">校园网登录UI</Str>
 		</Action>
 	</Task>
-	<Task sr="task14">
-		<cdate>1556663277519</cdate>
-		<edate>1557862219404</edate>
-		<id>14</id>
-		<nme>临时任务</nme>
+	<Task sr="task112">
+		<cdate>1557809343273</cdate>
+		<edate>1557809343273</edate>
+		<id>112</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>61</code>
+			<Int sr="arg0">
+				<var>%AZhend</var>
+			</Int>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">夜听眠</Str>
+		</Action>
+	</Task>
+	<Task sr="task113">
+		<cdate>1557878327325</cdate>
+		<edate>1557878327325</edate>
+		<id>113</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">校园网登录UI</Str>
+		</Action>
+	</Task>
+	<Task sr="task114">
+		<cdate>1557880655728</cdate>
+		<edate>1558061127355</edate>
+		<id>114</id>
+		<nme>负载悬浮窗</nme>
+		<pri>100</pri>
+		<rty>1</rty>
+		<Action sr="act0" ve="7">
+			<code>47</code>
+			<Str sr="arg0" ve="3">负载悬浮窗</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="4"/>
+			<Int sr="arg3" val="16"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="1"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>123</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">cat /sys/devices/system/cpu/cpu0/cpufreq/cpuinfo_cur_freq</Str>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="1"/>
+			<Str sr="arg3" ve="3">%cpuinfo_cur_freq</Str>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>135</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="2"/>
+			<Str sr="arg2" ve="3"/>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">负载悬浮窗</Str>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Cpuinfo_cur_freq</Str>
+			<Str sr="arg1" ve="3">%cpuinfo_cur_freq/1000</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>123</code>
+			<Str sr="arg0" ve="3">cat /sys/devices/system/cpu/cpu2/cpufreq/cpuinfo_cur_freq</Str>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="1"/>
+			<Str sr="arg3" ve="3">%cpuinfo_cur_freq2</Str>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Cpuinfo_cur_freq2</Str>
+			<Str sr="arg1" ve="3">%cpuinfo_cur_freq2/1000</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>123</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">cat /sys/class/kgsl/kgsl-3d0/devfreq/gpu_load</Str>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3">%gpu_load</Str>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Gpu_load</Str>
+			<Str sr="arg1" ve="3">%gpu_load</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>123</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">cat /sys/class/kgsl/kgsl-3d0/devfreq/cur_freq</Str>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3">%gpucur_freq</Str>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Gpucur_freq</Str>
+			<Str sr="arg1" ve="3">%gpucur_freq/1000000</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>30</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task115">
+		<cdate>1557809409952</cdate>
+		<edate>1558562474150</edate>
+		<id>115</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>61</code>
+			<Int sr="arg0">
+				<var>%AZhend</var>
+			</Int>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>877</code>
+			<label>默认浏览器打开网址</label>
+			<Str sr="arg0" ve="3">android.intent.action.VIEW</Str>
+			<Int sr="arg1" val="3"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3">https://fm.qq.com/luobo/radio?_wv=4097&amp;aid=rd000ucjJR3Jk1g1&amp;from_uid=7798061&amp;showid=rd00457dJs1eEJvZ&amp;sourceInfo=adpos%3D20013%26exp_id%3D0%26ts%3D1558378040</Str>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3">com.android.browser</Str>
+			<Str sr="arg8" ve="3"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">夜听眠</Str>
+		</Action>
+	</Task>
+	<Task sr="task116">
+		<cdate>1557885294937</cdate>
+		<edate>1557976888296</edate>
+		<id>116</id>
+		<nme>呼吸灯</nme>
 		<pri>100</pri>
 		<rty>1</rty>
 		<Action sr="act0" ve="7">
 			<code>300</code>
-			<label>用于测试和验证临时想出的任务，尽快清空保证下次使用</label>
+			<label>实时写入文件实现变换LED呼吸灯颜色亮度，写入间隔较短时，软件容易卡死</label>
 		</Action>
 		<Action sr="act1" ve="7">
+			<code>888</code>
+			<Str sr="arg0" ve="3">%lightr</Str>
+			<Int sr="arg1">
+				<var>62</var>
+			</Int>
+			<Int sr="arg2" val="500"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>888</code>
+			<Str sr="arg0" ve="3">%lightb</Str>
+			<Int sr="arg1">
+				<var>110</var>
+			</Int>
+			<Int sr="arg2" val="500"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>888</code>
+			<Str sr="arg0" ve="3">%lightg</Str>
+			<Int sr="arg1">
+				<var>87</var>
+			</Int>
+			<Int sr="arg2" val="500"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>123</code>
+			<Str sr="arg0" ve="3">echo %lightr &gt; /sys/class/leds/red/max_brightness
+echo %lightb &gt; /sys/class/leds/blue/max_brightness
+echo %lightg &gt; /sys/class/leds/green/max_brightness</Str>
+			<Int sr="arg1" val="32"/>
+			<Int sr="arg2" val="1"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>30</code>
+			<Int sr="arg0" val="500"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>135</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3"/>
+		</Action>
+	</Task>
+	<Task sr="task117">
+		<cdate>1557886005268</cdate>
+		<edate>1557975337063</edate>
+		<id>117</id>
+		<nme>实时显示文件内容</nme>
+		<pri>100</pri>
+		<rty>1</rty>
+		<Action sr="act0" ve="7">
 			<code>47</code>
 			<Str sr="arg0" ve="3">显示文字</Str>
 			<Int sr="arg1" val="0"/>
@@ -2262,16 +2622,16 @@ echo 0 &gt; /sys/class/leds/button-backlight1/max_brightness</Str>
 			<Int sr="arg6" val="1"/>
 			<Int sr="arg7" val="1"/>
 		</Action>
-		<Action sr="act2" ve="7">
+		<Action sr="act1" ve="7">
 			<code>123</code>
-			<Str sr="arg0" ve="3">cat /sys/class/leds/led:switch/trigger</Str>
+			<Str sr="arg0" ve="3">md5sum /sys/class/leds/led:switch/trigger</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
-			<Str sr="arg3" ve="3">%ALINSHI</Str>
+			<Str sr="arg3" ve="3">%md51</Str>
 			<Str sr="arg4" ve="3"/>
 			<Str sr="arg5" ve="3"/>
 		</Action>
-		<Action sr="act3" ve="7">
+		<Action sr="act2" ve="7">
 			<code>30</code>
 			<Int sr="arg0" val="440"/>
 			<Int sr="arg1" val="0"/>
@@ -2279,15 +2639,296 @@ echo 0 &gt; /sys/class/leds/button-backlight1/max_brightness</Str>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 		</Action>
+		<Action sr="act3" ve="7">
+			<code>123</code>
+			<Str sr="arg0" ve="3">md5sum /sys/class/leds/led:switch/trigger</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3">%md52</Str>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+		</Action>
 		<Action sr="act4" ve="7">
-			<code>135</code>
-			<Int sr="arg0" val="0"/>
-			<Int sr="arg1" val="3"/>
-			<Str sr="arg2" ve="3"/>
+			<code>123</code>
+			<Str sr="arg0" ve="3">cat /sys/class/leds/led:switch/trigger</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3">%ALINSHI</Str>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%md51</lhs>
+					<op>1</op>
+					<rhs>%md52</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
 		<Action sr="act5" ve="7">
+			<code>135</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="2"/>
+			<Str sr="arg2" ve="3"/>
+		</Action>
+		<Action sr="act6" ve="7">
 			<code>49</code>
 			<Str sr="arg0" ve="3">显示文字</Str>
+		</Action>
+	</Task>
+	<Task sr="task118">
+		<cdate>1557889700693</cdate>
+		<edate>1558271625610</edate>
+		<id>118</id>
+		<nme>自动备份</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">自动备份中</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>405</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">/data/备份/cpugpuio调度</Str>
+			<Str sr="arg1" ve="3">Download/Tasker自动备份</Str>
+			<Int sr="arg2" val="1"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>405</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">Zoom/</Str>
+			<Str sr="arg1" ve="3">Download/Tasker自动备份</Str>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>405</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">Tasker/</Str>
+			<Str sr="arg1" ve="3">Download/Tasker自动备份</Str>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>405</code>
+			<label>mindjet</label>
+			<se>false</se>
+			<Str sr="arg0" ve="3">maps/</Str>
+			<Str sr="arg1" ve="3">Download/Tasker自动备份</Str>
+			<Int sr="arg2" val="1"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>405</code>
+			<label>Xmind</label>
+			<se>false</se>
+			<Str sr="arg0" ve="3">XMind/</Str>
+			<Str sr="arg1" ve="3">Download/Tasker自动备份</Str>
+			<Int sr="arg2" val="1"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>420</code>
+			<Str sr="arg0" ve="3">Download/Tasker自动备份</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="1"/>
+			<Str sr="arg3" ve="3">Download/Tasker自动备份%DATE</Str>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>376</code>
+			<Str sr="arg0" ve="3">Download/Tasker自动备份%DATE.zip</Str>
+			<Str sr="arg1" ve="3">application/zip</Str>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3"/>
+		</Action>
+	</Task>
+	<Task sr="task121">
+		<cdate>1557932597184</cdate>
+		<edate>1557961307232</edate>
+		<id>121</id>
+		<nme>同步开关</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">打开同步开关</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>331</code>
+			<Int sr="arg0" val="1"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>20</code>
+			<App sr="arg0">
+				<appClass>com.github.shadowsocks.QuickToggleShortcut</appClass>
+				<appPkg>in.zhaoj.shadowsocksr</appPkg>
+				<label>SSR:开关</label>
+			</App>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>30</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="12"/>
+			<Int sr="arg2" val="15"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>1692544825</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>停止</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<switch_on>false</switch_on>
+					<switch_on-type>java.lang.Boolean</switch_on-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">in.zhaoj.shadowsocksr</Str>
+			<Str sr="arg2" ve="3">com.github.shadowsocks.TaskerActivity</Str>
+			<Int sr="arg3" val="10"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>331</code>
+			<Int sr="arg0" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task122">
+		<cdate>1558454050126</cdate>
+		<edate>1558516490082</edate>
+		<id>122</id>
+		<nme>夜晚听着睡觉</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>47</code>
+			<Str sr="arg0" ve="3">夜听眠</Str>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="198"/>
+			<Int sr="arg3" val="11"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task124">
+		<cdate>1557809343273</cdate>
+		<edate>1557809343273</edate>
+		<id>124</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>61</code>
+			<Int sr="arg0">
+				<var>%AZhend</var>
+			</Int>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>137</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3">%Task</Str>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">通用选择框</Str>
+		</Action>
+	</Task>
+	<Task sr="task125">
+		<cdate>1557809409952</cdate>
+		<edate>1557809409952</edate>
+		<id>125</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>61</code>
+			<Int sr="arg0">
+				<var>%AZhend</var>
+			</Int>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">通用选择框</Str>
+		</Action>
+	</Task>
+	<Task sr="task126">
+		<cdate>1558481536724</cdate>
+		<edate>1558571086770</edate>
+		<id>126</id>
+		<nme>听早间新闻</nme>
+		<pri>100</pri>
+		<rty>1</rty>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<label>必须:任务名称填写</label>
+			<Str sr="arg0" ve="3">%Task</Str>
+			<Str sr="arg1" ve="3">听早间新闻</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<label>任务提示编辑</label>
+			<Str sr="arg0" ve="3">%Task_work</Str>
+			<Str sr="arg1" ve="3">前往听早间新闻吗？</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>47</code>
+			<Str sr="arg0" ve="3">通用选择框</Str>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="198"/>
+			<Int sr="arg3" val="9"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>877</code>
+			<label>默认浏览器打开网址</label>
+			<Str sr="arg0" ve="3">android.intent.action.VIEW</Str>
+			<Int sr="arg1" val="3"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3">http://xima.tv/hCT6YD</Str>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3">com.android.browser</Str>
+			<Str sr="arg8" ve="3"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>30</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="10"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">已听了十分钟，做今天该干的事吧</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>443</code>
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="1"/>
+			<App sr="arg2"/>
+		</Action>
+	</Task>
+	<Task sr="task14">
+		<cdate>1556663277519</cdate>
+		<edate>1558313735613</edate>
+		<id>14</id>
+		<nme>显示音量</nme>
+		<pri>6</pri>
+		<rty>1</rty>
+		<Action sr="act0" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">音量级别:%VOLM</Str>
+			<Int sr="arg1" val="0"/>
 		</Action>
 	</Task>
 	<Task sr="task15">
@@ -2374,14 +3015,14 @@ echo 0 &gt; /sys/class/leds/button-backlight1/max_brightness</Str>
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>49</code>
-			<Str sr="arg0" ve="3">关闭间歇闹钟</Str>
+			<Str sr="arg0" ve="3">间歇闹钟</Str>
 		</Action>
 	</Task>
 	<Task sr="task18">
 		<cdate>1556322643147</cdate>
-		<edate>1556927195636</edate>
+		<edate>1557933839554</edate>
 		<id>18</id>
-		<pri>6</pri>
+		<pri>100</pri>
 		<Action sr="act0" ve="7">
 			<code>559</code>
 			<Str sr="arg0" ve="3">一个新程序安装成功</Str>
@@ -2467,7 +3108,7 @@ echo 0 &gt; /sys/class/leds/button-backlight1/max_brightness</Str>
 	</Task>
 	<Task sr="task22">
 		<cdate>1557036819087</cdate>
-		<edate>1557631648762</edate>
+		<edate>1558565727922</edate>
 		<id>22</id>
 		<nme>锁屏记录2.0</nme>
 		<Action sr="act0" ve="7">
@@ -2505,7 +3146,7 @@ echo 0 &gt; /sys/class/leds/button-backlight1/max_brightness</Str>
 	</Task>
 	<Task sr="task23">
 		<cdate>1557036819087</cdate>
-		<edate>1557631927090</edate>
+		<edate>1558060559617</edate>
 		<id>23</id>
 		<nme>开屏记录</nme>
 		<Action sr="act0" ve="7">
@@ -2547,9 +3188,122 @@ echo 0 &gt; /sys/class/leds/button-backlight1/max_brightness</Str>
 			<Str sr="arg0" ve="3">%scene_name</Str>
 		</Action>
 	</Task>
+	<Task sr="task26">
+		<cdate>1558240990782</cdate>
+		<edate>1558539312842</edate>
+		<id>26</id>
+		<nme>充电结束任务2.0</nme>
+		<rty>1</rty>
+		<Action sr="act0" ve="7">
+			<code>137</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%UPS</lhs>
+					<op>6</op>
+					<rhs>200</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Batt状态</Str>
+			<Str sr="arg1" ve="3">0</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Batt_t1</Str>
+			<Str sr="arg1" ve="3">%UPS</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%BaTT_T</Str>
+			<Str sr="arg1" ve="3">%Batt_t1-%Batt_t0</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%BaTT_T</Str>
+			<Str sr="arg1" ve="3">%BaTT_T/60</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%BaTT</Str>
+			<Str sr="arg1" ve="3">%BATT-%Batt</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">本次%BaTT_T 分钟 充电 %BaTT %👻👻👻👻👻</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>523</code>
+			<Str sr="arg0" ve="3">充电结束</Str>
+			<Str sr="arg1" ve="3">本次%BaTT_T 分钟 充电 %BaTT %👻👻👻👻👻</Str>
+			<Str sr="arg10" ve="3"/>
+			<Str sr="arg11" ve="3"/>
+			<Img sr="arg2" ve="2">
+				<nme>mw_device_battery_charging_full</nme>
+			</Img>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="2"/>
+			<Int sr="arg8" val="0"/>
+			<Str sr="arg9" ve="3"/>
+		</Action>
+		<Img sr="icn" ve="2">
+			<nme>mw_device_battery_charging_80</nme>
+		</Img>
+	</Task>
+	<Task sr="task27">
+		<cdate>1558345939408</cdate>
+		<edate>1558345939408</edate>
+		<id>27</id>
+		<pri>7</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%FQie</Str>
+			<Str sr="arg1" ve="3">%new_val</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%FQie</Str>
+			<Str sr="arg1" ve="3">没有输入</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%new_val</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+	</Task>
 	<Task sr="task28">
 		<cdate>1557041097175</cdate>
-		<edate>1557848736355</edate>
+		<edate>1558020340159</edate>
 		<id>28</id>
 		<nme>查询开屏时间</nme>
 		<pri>100</pri>
@@ -2568,6 +3322,14 @@ echo 0 &gt; /sys/class/leds/button-backlight1/max_brightness</Str>
 			<Int sr="arg4" val="0"/>
 		</Action>
 		<Action sr="act2" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Scr_TIMEm</Str>
+			<Str sr="arg1" ve="3">0</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
 			<code>888</code>
 			<Str sr="arg0" ve="3">%Scr_TIMEh</Str>
 			<Int sr="arg1">
@@ -2575,20 +3337,20 @@ echo 0 &gt; /sys/class/leds/button-backlight1/max_brightness</Str>
 			</Int>
 			<Int sr="arg2" val="0"/>
 		</Action>
-		<Action sr="act3" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%Scr_TIMEm</Str>
-			<Str sr="arg1" ve="3">%Scr_time%60</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="1"/>
-			<Int sr="arg4" val="0"/>
-		</Action>
 		<Action sr="act4" ve="7">
+			<code>888</code>
+			<Str sr="arg0" ve="3">%Scr_TIMEm</Str>
+			<Int sr="arg1">
+				<var>%Scr_time/60%60</var>
+			</Int>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
 			<code>548</code>
 			<Str sr="arg0" ve="3">8:00以来累计开屏%Scr_TIMEh 小时 %Scr_TIMEm 分</Str>
 			<Int sr="arg1" val="0"/>
 		</Action>
-		<Action sr="act5" ve="7">
+		<Action sr="act6" ve="7">
 			<code>548</code>
 			<Str sr="arg0" ve="3">开屏次数%Scr_num 次</Str>
 			<Int sr="arg1" val="0"/>
@@ -2600,7 +3362,7 @@ echo 0 &gt; /sys/class/leds/button-backlight1/max_brightness</Str>
 	</Task>
 	<Task sr="task29">
 		<cdate>1557441832601</cdate>
-		<edate>1557660827778</edate>
+		<edate>1558060573553</edate>
 		<id>29</id>
 		<nme>读取或清除文件</nme>
 		<pri>100</pri>
@@ -2659,7 +3421,7 @@ echo 0 &gt; /sys/class/leds/button-backlight1/max_brightness</Str>
 	</Task>
 	<Task sr="task3">
 		<cdate>1556070566824</cdate>
-		<edate>1557442443883</edate>
+		<edate>1558179439064</edate>
 		<id>3</id>
 		<nme>语音输入</nme>
 		<pri>100</pri>
@@ -2837,11 +3599,12 @@ Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/
 	</Task>
 	<Task sr="task30">
 		<cdate>1557357613445</cdate>
-		<edate>1557736432094</edate>
+		<edate>1558399554129</edate>
 		<id>30</id>
 		<nme>记录位置</nme>
 		<pri>100</pri>
 		<rty>1</rty>
+		<stayawake>true</stayawake>
 		<Action sr="act0" ve="7">
 			<code>61</code>
 			<Int sr="arg0">
@@ -2850,6 +3613,7 @@ Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>902</code>
+			<se>false</se>
 			<Int sr="arg0" val="1"/>
 			<Int sr="arg1" val="10"/>
 			<Int sr="arg2" val="0"/>
@@ -2872,29 +3636,18 @@ Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/
 		<Action sr="act4" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%LocnR</Str>
-			<Str sr="arg1" ve="3">%Locn2,%Locn1,%LOCALT</Str>
+			<Str sr="arg1" ve="3">%Locn2,%Locn1,%LOCALT   </Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
+			<Int sr="arg4" val="1"/>
 		</Action>
 		<Action sr="act5" ve="7">
 			<code>548</code>
+			<on>false</on>
 			<Str sr="arg0" ve="3">%LocnR</Str>
 			<Int sr="arg1" val="0"/>
 		</Action>
 		<Action sr="act6" ve="7">
-			<code>410</code>
-			<Str sr="arg0" ve="3">18311/位置信息.txt</Str>
-			<Str sr="arg1" ve="3">%LocnR</Str>
-			<Int sr="arg2" val="1"/>
-			<Int sr="arg3" val="1"/>
-		</Action>
-		<Action sr="act7" ve="7">
-			<code>417</code>
-			<Str sr="arg0" ve="3">18311/位置信息.txt</Str>
-			<Str sr="arg1" ve="3">%ALINSHI</Str>
-		</Action>
-		<Action sr="act8" ve="7">
 			<code>30</code>
 			<Int sr="arg0" val="0"/>
 			<Int sr="arg1" val="10"/>
@@ -2902,36 +3655,257 @@ Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 		</Action>
-		<Action sr="act9" ve="7">
+		<Action sr="act7" ve="7">
 			<code>135</code>
 			<Int sr="arg0" val="0"/>
-			<Int sr="arg1" val="1"/>
+			<Int sr="arg1" val="2"/>
 			<Str sr="arg2" ve="3"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>410</code>
+			<label>手动写入数据到文件</label>
+			<Str sr="arg0" ve="3">18311/位置信息.txt</Str>
+			<Str sr="arg1" ve="3">%LocnR</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>549</code>
+			<Str sr="arg0" ve="3">%LocnR</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
 		</Action>
 	</Task>
 	<Task sr="task31">
-		<cdate>1557383032879</cdate>
-		<edate>1557383032879</edate>
+		<cdate>1558369939499</cdate>
+		<edate>1558520818573</edate>
 		<id>31</id>
-		<pri>102</pri>
+		<nme>swap io计算</nme>
+		<pri>100</pri>
+		<rty>1</rty>
 		<Action sr="act0" ve="7">
-			<code>354</code>
-			<Str sr="arg0" ve="3">%color</Str>
-			<Str sr="arg1" ve="3">#2D400376,#2D760303,#2D00FF3B</Str>
-			<Str sr="arg2" ve="3">,</Str>
+			<code>548</code>
+			<Str sr="arg0" ve="3">电池温度过高，计算swap io负载中</Str>
+			<Int sr="arg1" val="0"/>
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>547</code>
-			<Str sr="arg0" ve="3">%color</Str>
-			<Str sr="arg1" ve="3">%color</Str>
+			<label>循环等待时间</label>
+			<Str sr="arg0" ve="3">%watime</Str>
+			<Str sr="arg1" ve="3">4</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 		</Action>
+		<Action sr="act10" ve="7">
+			<code>30</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1">
+				<var>%watime</var>
+			</Int>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>135</code>
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">读取io</Str>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%time</lhs>
+					<op>6</op>
+					<rhs>%fortime</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Iostat_sum</Str>
+			<Str sr="arg1" ve="3">0</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%time</Str>
+			<Str sr="arg1" ve="3">0</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>888</code>
+			<label>计算循环</label>
+			<Str sr="arg0" ve="3">%time</Str>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>356</code>
+			<Str sr="arg0" ve="3">%Iostat_save</Str>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">%Iostat_s</Str>
+		</Action>
+		<Action sr="act16" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Iostat_sum</Str>
+			<Str sr="arg1" ve="3">%Iostat_s +%Iostat_sum</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act17" ve="7">
+			<code>135</code>
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">计算循环</Str>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%time</lhs>
+					<op>6</op>
+					<rhs>%fortime</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act18" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Iostat_adve</Str>
+			<Str sr="arg1" ve="3">%Iostat_sum /%fortime</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act19" ve="7">
+			<code>357</code>
+			<Str sr="arg0" ve="3">%Iostat_save</Str>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>547</code>
+			<label>循环次数</label>
+			<Str sr="arg0" ve="3">%fortime</Str>
+			<Str sr="arg1" ve="3">6</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act20" ve="7">
+			<code>357</code>
+			<Str sr="arg0" ve="3">%Iostat</Str>
+		</Action>
+		<Action sr="act21" ve="7">
+			<code>123</code>
+			<Str sr="arg0" ve="3">echo 80 &gt; /proc/sys/vm/swappiness</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="1"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%Iostat_adve</lhs>
+					<op>7</op>
+					<rhs>1000</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act22" ve="7">
+			<code>779</code>
+			<Str sr="arg0" ve="3">io值</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act23" ve="7">
+			<code>523</code>
+			<Str sr="arg0" ve="3">swap io读取平均值</Str>
+			<Str sr="arg1" ve="3">io平均负载%Iostat_adve</Str>
+			<Str sr="arg10" ve="3"/>
+			<Str sr="arg11" ve="3"/>
+			<Img sr="arg2" ve="2">
+				<nme>mw_action_hourglass_empty</nme>
+			</Img>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+			<Str sr="arg9" ve="3"/>
+		</Action>
+		<Action sr="act24" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">io平均值计算完成</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%time</Str>
+			<Str sr="arg1" ve="3">0</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>123</code>
+			<label>读取io</label>
+			<Str sr="arg0" ve="3">vmstat 1 2</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3">%Iostat</Str>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>888</code>
+			<Str sr="arg0" ve="3">%time</Str>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>590</code>
+			<Str sr="arg0" ve="3">%Iostat</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>523</code>
+			<Str sr="arg0" ve="3">swap io</Str>
+			<Str sr="arg1" ve="3">%Iostat45+%Iostat46</Str>
+			<Str sr="arg10" ve="3"/>
+			<Str sr="arg11" ve="3"/>
+			<Img sr="arg2" ve="2">
+				<nme>mw_action_hourglass_empty</nme>
+			</Img>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+			<Str sr="arg9" ve="3"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Iostat46</Str>
+			<Str sr="arg1" ve="3">%Iostat45+%Iostat46</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>355</code>
+			<Str sr="arg0" ve="3">%Iostat_save</Str>
+			<Int sr="arg1">
+				<var>1</var>
+			</Int>
+			<Str sr="arg2" ve="3">%Iostat46</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
 	</Task>
 	<Task sr="task33">
 		<cdate>1557424878798</cdate>
-		<edate>1557424958089</edate>
+		<edate>1558390066505</edate>
 		<id>33</id>
 		<Action sr="act0" ve="7">
 			<code>59</code>
@@ -3007,13 +3981,30 @@ Windows names
 		</Img>
 	</Task>
 	<Task sr="task37">
-		<cdate>1557566099532</cdate>
-		<edate>1557730200855</edate>
+		<cdate>1556663277519</cdate>
+		<edate>1558564747955</edate>
 		<id>37</id>
+		<nme>临时</nme>
+		<pri>100</pri>
+		<rty>1</rty>
 		<Action sr="act0" ve="7">
-			<code>137</code>
-			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3">记录位置</Str>
+			<code>300</code>
+			<label>用于测试和验证临时想出的任务，尽快清空保证下次使用</label>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>61</code>
+			<Int sr="arg0">
+				<var>%AZhend</var>
+			</Int>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">%ALINSHI</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>357</code>
+			<Str sr="arg0" ve="3">%ALINSHI</Str>
 		</Action>
 	</Task>
 	<Task sr="task39">
@@ -3081,7 +4072,7 @@ Windows names
 		<cdate>1556063835084</cdate>
 		<edate>1556063835084</edate>
 		<id>4</id>
-		<pri>8</pri>
+		<pri>102</pri>
 		<Action sr="act0" ve="7">
 			<code>137</code>
 			<Int sr="arg0" val="0"/>
@@ -3089,7 +4080,7 @@ Windows names
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>49</code>
-			<Str sr="arg0" ve="3">关闭间歇闹钟</Str>
+			<Str sr="arg0" ve="3">间歇闹钟</Str>
 		</Action>
 	</Task>
 	<Task sr="task40">
@@ -3102,7 +4093,7 @@ Windows names
 	</Task>
 	<Task sr="task41">
 		<cdate>1557043078111</cdate>
-		<edate>1557638077069</edate>
+		<edate>1558539269418</edate>
 		<id>41</id>
 		<nme>晚十一点任务</nme>
 		<pri>100</pri>
@@ -3120,7 +4111,33 @@ Windows names
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 		</Action>
+		<Action sr="act10" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">当天开屏时间累计完成，已存入日历</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>235</code>
+			<label>键盘灯</label>
+			<Int sr="arg0" val="1"/>
+			<Str sr="arg1" ve="3">screen_buttons_turn_on</Str>
+			<Str sr="arg2" ve="3">=:=toggle=:=</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>989</code>
+			<Int sr="arg0" val="1"/>
+		</Action>
 		<Action sr="act2" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Scr_TIMEm</Str>
+			<Str sr="arg1" ve="3">0</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
 			<code>888</code>
 			<Str sr="arg0" ve="3">%Scr_TIMEh</Str>
 			<Int sr="arg1">
@@ -3128,15 +4145,40 @@ Windows names
 			</Int>
 			<Int sr="arg2" val="0"/>
 		</Action>
-		<Action sr="act3" ve="7">
-			<code>547</code>
+		<Action sr="act4" ve="7">
+			<code>888</code>
 			<Str sr="arg0" ve="3">%Scr_TIMEm</Str>
-			<Str sr="arg1" ve="3">%Scr_time%60</Str>
+			<Int sr="arg1">
+				<var>%Scr_time/60%60</var>
+			</Int>
 			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="1"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>547</code>
+			<label>计算开屏时间变量重置</label>
+			<Str sr="arg0" ve="3">%Scr_time</Str>
+			<Str sr="arg1" ve="3">0</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 		</Action>
-		<Action sr="act4" ve="7">
+		<Action sr="act6" ve="7">
+			<code>547</code>
+			<label>开屏次数重置</label>
+			<Str sr="arg0" ve="3">%Scr_num</Str>
+			<Str sr="arg1" ve="3">0</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>902</code>
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="10"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act8" ve="7">
 			<code>567</code>
 			<label>开屏时间加入日历</label>
 			<Str sr="arg0" ve="3"/>
@@ -3144,21 +4186,27 @@ Windows names
 			<Str sr="arg2" ve="3">累计开屏%Scr_TIMEh 小时 %Scr_TIMEm 分(8:00-11:00)</Str>
 			<Str sr="arg3" ve="3">开屏次数%Scr_num 次
 
-由tasker任务提供时间累计，tasker关闭状态不累计时间。创建该任务时间2019.05.09
-修改v2.0</Str>
+Timesumer v3.0:由tasker任务提供时间累计，tasker关闭状态不累计时间。
+创建该任务时间2019.05.09
+05/10更新v2.0:优化显示
+05/16更新v3.0:修改分钟数计算逻辑</Str>
 			<Str sr="arg4" ve="3">%LOCN</Str>
 			<Int sr="arg5" val="0"/>
 			<Int sr="arg6" val="0"/>
 		</Action>
-		<Action sr="act5" ve="7">
-			<code>548</code>
-			<Str sr="arg0" ve="3">当天开屏时间累计完成，已存入日历</Str>
-			<Int sr="arg1" val="0"/>
+		<Action sr="act9" ve="7">
+			<code>410</code>
+			<label>写入日志文件</label>
+			<se>false</se>
+			<Str sr="arg0" ve="3">Tasker/Myfile/Mylog.txt</Str>
+			<Str sr="arg1" ve="3">%DATE %TIME 累计开屏%Scr_TIMEh 小时 %Scr_TIMEm 分</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="1"/>
 		</Action>
 	</Task>
 	<Task sr="task42">
 		<cdate>1557053842972</cdate>
-		<edate>1557615587472</edate>
+		<edate>1558562393685</edate>
 		<id>42</id>
 		<nme>关键思路集合2.0</nme>
 		<Action sr="act0" ve="7">
@@ -3192,6 +4240,34 @@ Windows names
 			<Str sr="arg5" ve="3"/>
 		</Action>
 		<Action sr="act3" ve="7">
+			<code>877</code>
+			<label>网易云音乐打开特定歌曲</label>
+			<Str sr="arg0" ve="3">android.intent.action.VIEW</Str>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3">http://music.163.com/song/38592976/?userid=299051120</Str>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3">com.netease.cloudmusic</Str>
+			<Str sr="arg8" ve="3">com.netease.cloudmusic.activity.RedirectActivity</Str>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>877</code>
+			<label>默认浏览器打开网址</label>
+			<Str sr="arg0" ve="3">android.intent.action.VIEW</Str>
+			<Int sr="arg1" val="3"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3">https://fm.qq.com/luobo/radio?_wv=4097&amp;aid=rd000ucjJR3Jk1g1&amp;from_uid=7798061&amp;showid=rd00457dJs1eEJvZ&amp;sourceInfo=adpos%3D20013%26exp_id%3D0%26ts%3D1558140284</Str>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3">com.android.browser</Str>
+			<Str sr="arg8" ve="3"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act5" ve="7">
 			<code>547</code>
 			<label>计算当前秒数</label>
 			<Str sr="arg0" ve="3">%S60</Str>
@@ -3207,7 +4283,7 @@ Windows names
 	</Task>
 	<Task sr="task43">
 		<cdate>1557357613445</cdate>
-		<edate>1557736422146</edate>
+		<edate>1558399528726</edate>
 		<id>43</id>
 		<nme>记录位置GPS</nme>
 		<pri>100</pri>
@@ -3222,12 +4298,12 @@ Windows names
 			<code>902</code>
 			<Int sr="arg0" val="0"/>
 			<Int sr="arg1" val="20"/>
-			<Int sr="arg2" val="1"/>
-			<Int sr="arg3" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>547</code>
-			<Str sr="arg0" ve="3">%Locn</Str>
+			<Str sr="arg0" ve="3">%Loc</Str>
 			<Str sr="arg1" ve="3">%LOC</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
@@ -3235,36 +4311,25 @@ Windows names
 		</Action>
 		<Action sr="act3" ve="7">
 			<code>590</code>
-			<Str sr="arg0" ve="3">%Locn</Str>
+			<Str sr="arg0" ve="3">%Loc</Str>
 			<Str sr="arg1" ve="3">,</Str>
 			<Int sr="arg2" val="0"/>
 		</Action>
 		<Action sr="act4" ve="7">
 			<code>547</code>
-			<Str sr="arg0" ve="3">%LocnR</Str>
-			<Str sr="arg1" ve="3">%Locn2,%Locn1，%LOCALT</Str>
+			<Str sr="arg0" ve="3">%LocR</Str>
+			<Str sr="arg1" ve="3">%Loc2,%Loc1,%LOCALT</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
+			<Int sr="arg4" val="1"/>
 		</Action>
 		<Action sr="act5" ve="7">
 			<code>548</code>
-			<Str sr="arg0" ve="3">%LocnR</Str>
+			<on>false</on>
+			<Str sr="arg0" ve="3">%LocR</Str>
 			<Int sr="arg1" val="0"/>
 		</Action>
 		<Action sr="act6" ve="7">
-			<code>410</code>
-			<Str sr="arg0" ve="3">18311/位置信息.txt</Str>
-			<Str sr="arg1" ve="3">%LocnR</Str>
-			<Int sr="arg2" val="1"/>
-			<Int sr="arg3" val="1"/>
-		</Action>
-		<Action sr="act7" ve="7">
-			<code>417</code>
-			<Str sr="arg0" ve="3">18311/位置信息.txt</Str>
-			<Str sr="arg1" ve="3">%ALINSHI</Str>
-		</Action>
-		<Action sr="act8" ve="7">
 			<code>30</code>
 			<Int sr="arg0" val="0"/>
 			<Int sr="arg1" val="5"/>
@@ -3272,16 +4337,31 @@ Windows names
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 		</Action>
-		<Action sr="act9" ve="7">
+		<Action sr="act7" ve="7">
 			<code>135</code>
 			<Int sr="arg0" val="0"/>
-			<Int sr="arg1" val="1"/>
+			<Int sr="arg1" val="2"/>
 			<Str sr="arg2" ve="3"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>549</code>
+			<label>清除缓存</label>
+			<Str sr="arg0" ve="3">%LocR</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>410</code>
+			<label>手动写入数据到文件</label>
+			<Str sr="arg0" ve="3">18311/位置信息GPS .txt</Str>
+			<Str sr="arg1" ve="3">%LocR</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="0"/>
 		</Action>
 	</Task>
 	<Task sr="task45">
 		<cdate>1557060127269</cdate>
-		<edate>1557415455488</edate>
+		<edate>1558415295739</edate>
 		<id>45</id>
 		<nme>换壁纸2.0</nme>
 		<pri>6</pri>
@@ -3488,20 +4568,29 @@ Windows names
 	</Task>
 	<Task sr="task49">
 		<cdate>1557570981396</cdate>
-		<edate>1557581319722</edate>
+		<edate>1557975402957</edate>
 		<id>49</id>
 		<nme>关闭手动任务</nme>
 		<Action sr="act0" ve="7">
-			<code>137</code>
-			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3">记录位置</Str>
+			<code>49</code>
+			<Str sr="arg0" ve="3">显示文字</Str>
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>137</code>
 			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3">记录位置GPS</Str>
+			<Str sr="arg1" ve="3">实时显示文件内容</Str>
 		</Action>
 		<Action sr="act2" ve="7">
+			<code>137</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3">记录位置</Str>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>137</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3">记录位置GPS</Str>
+		</Action>
+		<Action sr="act4" ve="7">
 			<code>61</code>
 			<Int sr="arg0">
 				<var>%AZhend</var>
@@ -3522,7 +4611,7 @@ Windows names
 		<Action sr="act1" ve="7">
 			<code>137</code>
 			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3">番茄钟15.0</Str>
+			<Str sr="arg1" ve="3">番茄钟18.0</Str>
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>30</code>
@@ -3539,7 +4628,7 @@ Windows names
 		</Action>
 		<Action sr="act4" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">番茄钟15.0</Str>
+			<Str sr="arg0" ve="3">番茄钟18.0</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -3555,7 +4644,7 @@ Windows names
 	</Task>
 	<Task sr="task50">
 		<cdate>1557286057671</cdate>
-		<edate>1557848772029</edate>
+		<edate>1557975224475</edate>
 		<id>50</id>
 		<nme>查询执行中任务</nme>
 		<pri>100</pri>
@@ -3576,46 +4665,64 @@ Windows names
 	</Task>
 	<Task sr="task51">
 		<cdate>1557289948509</cdate>
-		<edate>1557400058424</edate>
+		<edate>1558359410267</edate>
 		<id>51</id>
-		<nme>充进电判断</nme>
+		<nme>充进电判断2.0</nme>
+		<rty>1</rty>
 		<Action sr="act0" ve="7">
 			<code>300</code>
-			<label>已知bug 未满五分钟拔电源，判断不准</label>
+			<label>2.0  加入时间计算电量</label>
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>547</code>
-			<Str sr="arg0" ve="3">%Bett</Str>
-			<Str sr="arg1" ve="3">%BATT</Str>
+			<label>充电状态</label>
+			<Str sr="arg0" ve="3">%Batt状态</Str>
+			<Str sr="arg1" ve="3">1</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 		</Action>
 		<Action sr="act2" ve="7">
-			<code>30</code>
-			<Int sr="arg0" val="0"/>
-			<Int sr="arg1" val="0"/>
-			<Int sr="arg2" val="10"/>
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Batt_t0</Str>
+			<Str sr="arg1" ve="3">%UPS</Str>
+			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 		</Action>
 		<Action sr="act3" ve="7">
 			<code>547</code>
-			<Str sr="arg0" ve="3">%Bett1</Str>
+			<Str sr="arg0" ve="3">%Batt</Str>
 			<Str sr="arg1" ve="3">%BATT</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 		</Action>
 		<Action sr="act4" ve="7">
+			<code>30</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="5"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
 			<code>547</code>
-			<Str sr="arg0" ve="3">%BETT</Str>
-			<Str sr="arg1" ve="3">%Bett1 - %Bett</Str>
+			<Str sr="arg0" ve="3">%Batt1</Str>
+			<Str sr="arg1" ve="3">%BATT</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Batt五分</Str>
+			<Str sr="arg1" ve="3">%Batt1 - %Batt</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="1"/>
 			<Int sr="arg4" val="0"/>
 		</Action>
-		<Action sr="act5" ve="7">
+		<Action sr="act7" ve="7">
 			<code>523</code>
 			<Str sr="arg0" ve="3">充电判断</Str>
 			<Str sr="arg1" ve="3">五分钟充电 %BETT%，数据线可能接触不良好。</Str>
@@ -3632,27 +4739,33 @@ Windows names
 			<Int sr="arg8" val="0"/>
 			<Str sr="arg9" ve="3"/>
 			<ConditionList sr="if">
+				<bool0>And</bool0>
 				<Condition sr="c0" ve="3">
 					<lhs>%BETT</lhs>
 					<op>6</op>
 					<rhs>4</rhs>
 				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%Bett状态1</lhs>
+					<op>0</op>
+					<rhs>1</rhs>
+				</Condition>
 			</ConditionList>
 		</Action>
 		<Img sr="icn" ve="2">
-			<nme>mw_device_battery_charging_full</nme>
-			<tint>-16748033</tint>
+			<nme>mw_device_battery_charging_50</nme>
 		</Img>
 	</Task>
 	<Task sr="task53">
 		<cdate>1557293840773</cdate>
-		<edate>1557389370720</edate>
+		<edate>1558415195401</edate>
 		<id>53</id>
+		<lk>true</lk>
 		<nme>设置震动</nme>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
 			<code>547</code>
-			<label>设置震动持续时间，单位为ms</label>
+			<label>全局变量，设置默认震动持续时间，单位为ms</label>
 			<Str sr="arg0" ve="3">%AZhend</Str>
 			<Str sr="arg1" ve="3">10</Str>
 			<Int sr="arg2" val="0"/>
@@ -3672,33 +4785,40 @@ Windows names
 	</Task>
 	<Task sr="task54">
 		<cdate>1557862384835</cdate>
-		<edate>1557866027912</edate>
+		<edate>1558060589875</edate>
 		<id>54</id>
-		<nme>cat文件夹</nme>
+		<nme>cat文件</nme>
 		<pri>100</pri>
+		<rty>1</rty>
 		<Action sr="act0" ve="7">
 			<code>123</code>
-			<on>false</on>
-			<Str sr="arg0" ve="3">cat /data/备份/测试/*</Str>
-			<Int sr="arg1" val="0"/>
+			<Str sr="arg0" ve="3">cat /sys/class/leds/led:switch/trigger</Str>
+			<Int sr="arg1" val="2"/>
 			<Int sr="arg2" val="0"/>
 			<Str sr="arg3" ve="3">%ALINSHI</Str>
 			<Str sr="arg4" ve="3"/>
 			<Str sr="arg5" ve="3"/>
 		</Action>
 		<Action sr="act1" ve="7">
-			<code>123</code>
-			<Str sr="arg0" ve="3">ls -al /data/备份/测试/*</Str>
-			<Int sr="arg1" val="0"/>
-			<Int sr="arg2" val="0"/>
-			<Str sr="arg3" ve="3">%ALINSHI</Str>
-			<Str sr="arg4" ve="3"/>
-			<Str sr="arg5" ve="3"/>
+			<code>410</code>
+			<Str sr="arg0" ve="3">18311/临时.txt</Str>
+			<Str sr="arg1" ve="3">%ALINSHI</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="1"/>
 		</Action>
 		<Action sr="act2" ve="7">
-			<code>548</code>
-			<Str sr="arg0" ve="3">%ALINSHI</Str>
-			<Int sr="arg1" val="0"/>
+			<code>30</code>
+			<Int sr="arg0" val="328"/>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>135</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3"/>
 		</Action>
 	</Task>
 	<Task sr="task55">
@@ -3717,186 +4837,33 @@ Windows names
 	</Task>
 	<Task sr="task56">
 		<cdate>1557591498194</cdate>
-		<edate>1557736398671</edate>
+		<edate>1558562068230</edate>
 		<id>56</id>
 		<nme>领取学习任务</nme>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
-			<code>61</code>
-			<Int sr="arg0">
-				<var>%AZhend</var>
-			</Int>
+			<code>300</code>
+			<label>可能用到的数据库</label>
 		</Action>
 		<Action sr="act1" ve="7">
-			<code>545</code>
-			<Str sr="arg0" ve="3">%suiji</Str>
+			<code>877</code>
+			<label>网易云音乐打开特定歌曲</label>
+			<on>false</on>
+			<Str sr="arg0" ve="3">android.intent.action.VIEW</Str>
 			<Int sr="arg1" val="1"/>
-			<Int sr="arg2" val="6"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3">http://music.163.com/song/38592976/?userid=299051120</Str>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3">com.netease.cloudmusic</Str>
+			<Str sr="arg8" ve="3">com.netease.cloudmusic.activity.RedirectActivity</Str>
+			<Int sr="arg9" val="1"/>
 		</Action>
 		<Action sr="act10" ve="7">
-			<code>548</code>
-			<Str sr="arg0" ve="3">找本书学习</Str>
-			<Int sr="arg1" val="1"/>
+			<code>38</code>
 		</Action>
 		<Action sr="act11" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act12" ve="7">
-			<code>37</code>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%suiji</lhs>
-					<op>0</op>
-					<rhs>3</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act13" ve="7">
-			<code>548</code>
-			<Str sr="arg0" ve="3">🏃放下手机走动走动，看看远方🏃</Str>
-			<Int sr="arg1" val="0"/>
-		</Action>
-		<Action sr="act14" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act15" ve="7">
-			<code>37</code>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%suiji</lhs>
-					<op>0</op>
-					<rhs>4</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act16" ve="7">
-			<code>20</code>
-			<App sr="arg0">
-				<appClass>com.zhihu.android.app.ui.activity.LauncherActivity</appClass>
-				<appPkg>com.zhihu.android</appPkg>
-				<label>知乎</label>
-			</App>
-			<Str sr="arg1" ve="3"/>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-		</Action>
-		<Action sr="act17" ve="7">
-			<code>548</code>
-			<Str sr="arg0" ve="3">看一篇有用的回答吧</Str>
-			<Int sr="arg1" val="0"/>
-		</Action>
-		<Action sr="act18" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act19" ve="7">
-			<code>37</code>
-			<label>BBC视频</label>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%suiji</lhs>
-					<op>0</op>
-					<rhs>5</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act2" ve="7">
-			<code>548</code>
-			<Str sr="arg0" ve="3">领到任务编号:%suiji</Str>
-			<Int sr="arg1" val="0"/>
-		</Action>
-		<Action sr="act20" ve="7">
-			<code>548</code>
-			<Str sr="arg0" ve="3">电脑上有BBC纪录片视频，去看吧</Str>
-			<Int sr="arg1" val="0"/>
-		</Action>
-		<Action sr="act21" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act22" ve="7">
-			<code>37</code>
-			<label>冥想放松</label>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%suiji</lhs>
-					<op>0</op>
-					<rhs>6</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act23" ve="7">
-			<code>20</code>
-			<App sr="arg0">
-				<appClass>com.tencent.radio.common.ui.LaunchActivity</appClass>
-				<appPkg>com.tencent.radio</appPkg>
-				<label>企鹅FM:common.ui.LaunchActivity</label>
-			</App>
-			<Str sr="arg1" ve="3"/>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-		</Action>
-		<Action sr="act24" ve="7">
-			<code>548</code>
-			<Str sr="arg0" ve="3">收藏夹有深度睡眠冥想</Str>
-			<Int sr="arg1" val="0"/>
-		</Action>
-		<Action sr="act25" ve="7">
-			<code>105</code>
-			<Str sr="arg0" ve="3">收藏夹有深度睡眠冥想</Str>
-			<Int sr="arg1" val="0"/>
-		</Action>
-		<Action sr="act26" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act27" ve="7">
-			<code>30</code>
-			<Int sr="arg0" val="0"/>
-			<Int sr="arg1" val="30"/>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-		</Action>
-		<Action sr="act28" ve="7">
-			<code>61</code>
-			<Int sr="arg0">
-				<var>%AZhend</var>
-			</Int>
-		</Action>
-		<Action sr="act3" ve="7">
-			<code>37</code>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%suiji</lhs>
-					<op>0</op>
-					<rhs>1</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act4" ve="7">
-			<code>105</code>
-			<Str sr="arg0" ve="3">原声教育</Str>
-			<Int sr="arg1" val="0"/>
-		</Action>
-		<Action sr="act5" ve="7">
-			<code>20</code>
-			<se>false</se>
-			<App sr="arg0">
-				<appClass>tv.danmaku.bili.ui.splash.SplashActivity</appClass>
-				<appPkg>tv.danmaku.bili</appPkg>
-				<label>哔哩哔哩</label>
-			</App>
-			<Str sr="arg1" ve="3"/>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-		</Action>
-		<Action sr="act6" ve="7">
-			<code>548</code>
-			<Str sr="arg0" ve="3">请粘贴 搜索</Str>
-			<Int sr="arg1" val="0"/>
-		</Action>
-		<Action sr="act7" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act8" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
@@ -3906,7 +4873,7 @@ Windows names
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act9" ve="7">
+		<Action sr="act12" ve="7">
 			<code>20</code>
 			<App sr="arg0">
 				<appClass>com.magook.activity.SplashActivity</appClass>
@@ -3917,12 +4884,224 @@ Windows names
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 		</Action>
+		<Action sr="act13" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">看本书</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%suiji</lhs>
+					<op>0</op>
+					<rhs>3</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act16" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">🏃放下手机走动走动，看看远方🏃</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act17" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act18" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%suiji</lhs>
+					<op>0</op>
+					<rhs>4</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act19" ve="7">
+			<code>877</code>
+			<label>知乎搜索</label>
+			<Str sr="arg0" ve="3">android.intent.action.SEARCH</Str>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3">com.zhihu.android</Str>
+			<Str sr="arg8" ve="3">com.zhihu.android.app.ui.activity.ActionPortalActivity</Str>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>877</code>
+			<label>默认浏览器打开网址</label>
+			<on>false</on>
+			<Str sr="arg0" ve="3">android.intent.action.VIEW</Str>
+			<Int sr="arg1" val="3"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3">https://fm.qq.com/luobo/radio?_wv=4097&amp;aid=rd000ucjJR3Jk1g1&amp;from_uid=7798061&amp;showid=rd00457dJs1eEJvZ&amp;sourceInfo=adpos%3D20013%26exp_id%3D0%26ts%3D1558140284</Str>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3">com.android.browser</Str>
+			<Str sr="arg8" ve="3"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act20" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">最近想知道的问题</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act21" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act22" ve="7">
+			<code>37</code>
+			<label>BBC视频</label>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%suiji</lhs>
+					<op>0</op>
+					<rhs>5</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act23" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">电脑上有BBC纪录片视频，去看吧</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act24" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act25" ve="7">
+			<code>37</code>
+			<label>冥想放松</label>
+			<ConditionList sr="if">
+				<bool0>Or</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%suiji</lhs>
+					<op>0</op>
+					<rhs>6</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%suiji</lhs>
+					<op>0</op>
+					<rhs>7</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act26" ve="7">
+			<code>877</code>
+			<label>默认浏览器打开网址</label>
+			<Str sr="arg0" ve="3">android.intent.action.VIEW</Str>
+			<Int sr="arg1" val="3"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3">https://fm.qq.com/luobo/radio?_wv=4097&amp;aid=rd000ucjJR3Jk1g1&amp;from_uid=7798061&amp;showid=rd00457dJs1eEJvZ&amp;sourceInfo=adpos%3D20013%26exp_id%3D0%26ts%3D1558140284</Str>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3">com.android.browser</Str>
+			<Str sr="arg8" ve="3"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act27" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">冥想放松</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act28" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act29" ve="7">
+			<code>30</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="10"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>300</code>
+			<label>可能用到的数据库</label>
+		</Action>
+		<Action sr="act30" ve="7">
+			<code>536</code>
+			<Str sr="arg0" ve="3">此次任务结束</Str>
+			<Str sr="arg1" ve="3"/>
+			<Img sr="arg2" ve="2">
+				<nme>mw_notification_sms_failed</nme>
+			</Img>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act31" ve="7">
+			<code>61</code>
+			<Int sr="arg0">
+				<var>%AZhend</var>
+			</Int>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>61</code>
+			<Int sr="arg0">
+				<var>%AZhend</var>
+			</Int>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>545</code>
+			<Str sr="arg0" ve="3">%suiji</Str>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="6"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">领到任务编号:%suiji</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>37</code>
+			<label>B站原声教育</label>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%suiji</lhs>
+					<op>0</op>
+					<rhs>1</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>877</code>
+			<label>默认浏览器打开网址</label>
+			<Str sr="arg0" ve="3">android.intent.action.VIEW</Str>
+			<Int sr="arg1" val="3"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3">https://b23.tv/av11686297/p1</Str>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3">com.android.browser</Str>
+			<Str sr="arg8" ve="3"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>105</code>
+			<Str sr="arg0" ve="3">原声教育</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Img sr="icn" ve="2">
+			<nme>mw_action_accessible</nme>
+		</Img>
 	</Task>
 	<Task sr="task58">
 		<cdate>1340988477954</cdate>
-		<edate>1557860879999</edate>
+		<edate>1558539172261</edate>
 		<id>58</id>
 		<nme>早八点任务</nme>
+		<pri>6</pri>
 		<Action sr="act0" ve="7">
 			<code>547</code>
 			<label>计算开屏时间变量重置</label>
@@ -3958,6 +5137,14 @@ Windows names
 			<Int sr="arg7" val="0"/>
 		</Action>
 		<Action sr="act4" ve="7">
+			<code>808</code>
+			<Int sr="arg0" val="1"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>989</code>
+			<Int sr="arg0" val="2"/>
+		</Action>
+		<Action sr="act6" ve="7">
 			<code>235</code>
 			<label>键盘灯</label>
 			<Int sr="arg0" val="1"/>
@@ -3966,10 +5153,14 @@ Windows names
 			<Int sr="arg3" val="0"/>
 			<Str sr="arg4" ve="3"/>
 		</Action>
-		<Action sr="act5" ve="7">
+		<Action sr="act7" ve="7">
 			<code>548</code>
 			<Str sr="arg0" ve="3">键盘灯变换成功</Str>
 			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>989</code>
+			<Int sr="arg0" val="0"/>
 		</Action>
 	</Task>
 	<Task sr="task59">
@@ -3992,13 +5183,13 @@ Windows names
 	</Task>
 	<Task sr="task6">
 		<cdate>1556067535659</cdate>
-		<edate>1557744749144</edate>
+		<edate>1558523284213</edate>
 		<id>6</id>
-		<nme>番茄钟15.0</nme>
+		<nme>番茄钟18.0</nme>
 		<Action sr="act0" ve="7">
 			<code>538</code>
 			<Str sr="arg0" ve="3">番茄钟</Str>
-			<Str sr="arg1" ve="3">进行中 😝于%TIME 启动😜</Str>
+			<Str sr="arg1" ve="3">进行中   😝%TIME 计时开始😜</Str>
 			<Img sr="arg2" ve="2">
 				<nme>mw_content_send</nme>
 			</Img>
@@ -4031,27 +5222,50 @@ Windows names
 		</Action>
 		<Action sr="act11" ve="7">
 			<code>559</code>
-			<Str sr="arg0" ve="3">这二十五分钟你做了什么呢</Str>
+			<Str sr="arg0" ve="3">写下刚才的事件吧</Str>
 			<Str sr="arg1" ve="3">default:default</Str>
 			<Int sr="arg2" val="3"/>
 			<Int sr="arg3" val="5"/>
 			<Int sr="arg4" val="5"/>
 			<Int sr="arg5" val="1"/>
 			<Int sr="arg6" val="0"/>
-			<Int sr="arg7" val="1"/>
+			<Int sr="arg7" val="0"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%VOLM</lhs>
 					<op>6</op>
-					<rhs>9</rhs>
+					<rhs>8</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
 		<Action sr="act12" ve="7">
+			<code>61</code>
+			<Int sr="arg0" val="1000"/>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<bool1>And</bool1>
+				<Condition sr="c0" ve="3">
+					<lhs>%TIME</lhs>
+					<op>6</op>
+					<rhs>23.00</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%TIME</lhs>
+					<op>7</op>
+					<rhs>08.00</rhs>
+				</Condition>
+				<Condition sr="c2" ve="3">
+					<lhs>%VOLM</lhs>
+					<op>7</op>
+					<rhs>7</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act13" ve="7">
 			<code>523</code>
 			<label>通知结束</label>
 			<Str sr="arg0" ve="3">番茄钟</Str>
-			<Str sr="arg1" ve="3">休息中                                                     于%TIME 结束</Str>
+			<Str sr="arg1" ve="3">休息中                                           番茄%TIME 结束</Str>
 			<Str sr="arg10" ve="3"/>
 			<Str sr="arg11" ve="3"/>
 			<Img sr="arg2" ve="2">
@@ -4066,7 +5280,7 @@ Windows names
 			<Int sr="arg8" val="117"/>
 			<Str sr="arg9" ve="3"/>
 		</Action>
-		<Action sr="act13" ve="7">
+		<Action sr="act14" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
@@ -4076,7 +5290,7 @@ Windows names
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act14" ve="7">
+		<Action sr="act15" ve="7">
 			<code>35</code>
 			<Int sr="arg0" val="0"/>
 			<Int sr="arg1" val="1"/>
@@ -4091,7 +5305,7 @@ Windows names
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act15" ve="7">
+		<Action sr="act16" ve="7">
 			<code>30</code>
 			<Int sr="arg0" val="0"/>
 			<Int sr="arg1" val="10"/>
@@ -4099,15 +5313,15 @@ Windows names
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 		</Action>
-		<Action sr="act16" ve="7">
+		<Action sr="act17" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act17" ve="7">
+		<Action sr="act18" ve="7">
 			<code>548</code>
 			<Str sr="arg0" ve="3">这二十五分钟你做了什么呢</Str>
 			<Int sr="arg1" val="1"/>
 		</Action>
-		<Action sr="act18" ve="7">
+		<Action sr="act19" ve="7">
 			<code>47</code>
 			<Str sr="arg0" ve="3">番茄钟输入记录v4.0</Str>
 			<Int sr="arg1" val="5"/>
@@ -4118,7 +5332,11 @@ Windows names
 			<Int sr="arg6" val="0"/>
 			<Int sr="arg7" val="0"/>
 		</Action>
-		<Action sr="act19" ve="7">
+		<Action sr="act2" ve="7">
+			<code>61</code>
+			<Int sr="arg0" val="300"/>
+		</Action>
+		<Action sr="act20" ve="7">
 			<code>559</code>
 			<Str sr="arg0" ve="3">休息五分钟吧</Str>
 			<Str sr="arg1" ve="3">default:default</Str>
@@ -4132,20 +5350,16 @@ Windows names
 				<Condition sr="c0" ve="3">
 					<lhs>%VOLM</lhs>
 					<op>6</op>
-					<rhs>9</rhs>
+					<rhs>8</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act2" ve="7">
-			<code>61</code>
-			<Int sr="arg0" val="300"/>
-		</Action>
-		<Action sr="act20" ve="7">
+		<Action sr="act21" ve="7">
 			<code>548</code>
 			<Str sr="arg0" ve="3">番茄钟结束，休息五分钟吧</Str>
 			<Int sr="arg1" val="1"/>
 		</Action>
-		<Action sr="act21" ve="7">
+		<Action sr="act22" ve="7">
 			<code>30</code>
 			<Int sr="arg0" val="0"/>
 			<Int sr="arg1" val="0"/>
@@ -4153,15 +5367,38 @@ Windows names
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 		</Action>
-		<Action sr="act22" ve="7">
-			<code>61</code>
-			<Int sr="arg0" val="200"/>
-		</Action>
 		<Action sr="act23" ve="7">
+			<code>61</code>
+			<Int sr="arg0" val="400"/>
+		</Action>
+		<Action sr="act24" ve="7">
+			<code>61</code>
+			<Int sr="arg0" val="1000"/>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<bool1>And</bool1>
+				<Condition sr="c0" ve="3">
+					<lhs>%TIME</lhs>
+					<op>6</op>
+					<rhs>23.00</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%TIME</lhs>
+					<op>7</op>
+					<rhs>08.00</rhs>
+				</Condition>
+				<Condition sr="c2" ve="3">
+					<lhs>%VOLM</lhs>
+					<op>7</op>
+					<rhs>7</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act25" ve="7">
 			<code>523</code>
 			<label>通知休息结束</label>
 			<Str sr="arg0" ve="3">番茄钟</Str>
-			<Str sr="arg1" ve="3">完成一个循环               于%TIME</Str>
+			<Str sr="arg1" ve="3">休息结束于%TIME</Str>
 			<Str sr="arg10" ve="3"/>
 			<Str sr="arg11" ve="3"/>
 			<Img sr="arg2" ve="2">
@@ -4172,11 +5409,11 @@ Windows names
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="0"/>
-			<Int sr="arg7" val="1"/>
-			<Int sr="arg8" val="103"/>
+			<Int sr="arg7" val="4"/>
+			<Int sr="arg8" val="100"/>
 			<Str sr="arg9" ve="3"/>
 		</Action>
-		<Action sr="act24" ve="7">
+		<Action sr="act26" ve="7">
 			<code>135</code>
 			<Int sr="arg0" val="0"/>
 			<Int sr="arg1" val="1"/>
@@ -4201,7 +5438,7 @@ Windows names
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act25" ve="7">
+		<Action sr="act27" ve="7">
 			<code>538</code>
 			<Str sr="arg0" ve="3">番茄钟</Str>
 			<Str sr="arg1" ve="3">好梦</Str>
@@ -4213,8 +5450,29 @@ Windows names
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="0"/>
+			<ConditionList sr="if">
+				<bool0>Or</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%TIME</lhs>
+					<op>7</op>
+					<rhs>23</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%TIME</lhs>
+					<op>6</op>
+					<rhs>8</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
 		<Action sr="act3" ve="7">
+			<code>30</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="10"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
 			<code>30</code>
 			<Int sr="arg0" val="0"/>
 			<Int sr="arg1" val="4"/>
@@ -4222,18 +5480,18 @@ Windows names
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 		</Action>
-		<Action sr="act4" ve="7">
+		<Action sr="act5" ve="7">
 			<code>548</code>
 			<Str sr="arg0" ve="3">🤗</Str>
 			<Int sr="arg1" val="0"/>
 		</Action>
-		<Action sr="act5" ve="7">
+		<Action sr="act6" ve="7">
 			<code>61</code>
 			<Int sr="arg0">
 				<var>%AZhend</var>
 			</Int>
 		</Action>
-		<Action sr="act6" ve="7">
+		<Action sr="act7" ve="7">
 			<code>101</code>
 			<Int sr="arg0" val="1"/>
 			<Str sr="arg1" ve="3">potato</Str>
@@ -4246,37 +5504,19 @@ Windows names
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="1"/>
 		</Action>
-		<Action sr="act7" ve="7">
+		<Action sr="act8" ve="7">
 			<code>61</code>
 			<Int sr="arg0">
 				<var>%AZhend</var>
 			</Int>
 		</Action>
-		<Action sr="act8" ve="7">
+		<Action sr="act9" ve="7">
 			<code>30</code>
 			<Int sr="arg0" val="0"/>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="25"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
-		</Action>
-		<Action sr="act9" ve="7">
-			<code>123</code>
-			<label>电源键</label>
-			<on>false</on>
-			<Str sr="arg0" ve="3">input keyevent 26</Str>
-			<Int sr="arg1" val="0"/>
-			<Int sr="arg2" val="1"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Str sr="arg5" ve="3"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%SCREEN</lhs>
-					<op>2</op>
-					<rhs>off</rhs>
-				</Condition>
-			</ConditionList>
 		</Action>
 		<Img sr="icn" ve="2">
 			<nme>mw_device_access_alarms</nme>
@@ -4285,7 +5525,7 @@ Windows names
 	</Task>
 	<Task sr="task60">
 		<cdate>1528601147611</cdate>
-		<edate>1557840286988</edate>
+		<edate>1558061501573</edate>
 		<id>60</id>
 		<nme>- 下载</nme>
 		<pri>100</pri>
@@ -4909,15 +6149,56 @@ echo $platforma | tr 'A-Z' 'a-z'</Str>
 	</Task>
 	<Task sr="task63">
 		<cdate>1557808938278</cdate>
-		<edate>1557839070297</edate>
+		<edate>1558140165513</edate>
 		<id>63</id>
 		<nme>登录校园网</nme>
 		<Action sr="act0" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">WiFi断开重连了！</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>118</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">baidu.com</Str>
+			<Str sr="arg1" ve="3"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="10"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>137</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3"/>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%HTTPL</lhs>
+					<op>6</op>
+					<rhs>100</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%HTTPR</lhs>
+					<op>3</op>
+					<rhs>-1</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">没有网络连接，点击悬浮按钮直接登录</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
 			<code>47</code>
-			<Str sr="arg0" ve="3">选择UI</Str>
+			<Str sr="arg0" ve="3">校园网登录UI</Str>
 			<Int sr="arg1" val="1"/>
-			<Int sr="arg2" val="100"/>
-			<Int sr="arg3" val="100"/>
+			<Int sr="arg2" val="198"/>
+			<Int sr="arg3" val="15"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5" val="0"/>
 			<Int sr="arg6" val="1"/>
@@ -4928,7 +6209,7 @@ echo $platforma | tr 'A-Z' 'a-z'</Str>
 		<cdate>1557809343273</cdate>
 		<edate>1557809343273</edate>
 		<id>64</id>
-		<pri>7</pri>
+		<pri>102</pri>
 		<Action sr="act0" ve="7">
 			<code>61</code>
 			<Int sr="arg0">
@@ -4937,14 +6218,14 @@ echo $platforma | tr 'A-Z' 'a-z'</Str>
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>49</code>
-			<Str sr="arg0" ve="3">选择UI</Str>
+			<Str sr="arg0" ve="3">校园网登录UI</Str>
 		</Action>
 	</Task>
 	<Task sr="task65">
 		<cdate>1557809409952</cdate>
-		<edate>1557809409952</edate>
+		<edate>1558562353728</edate>
 		<id>65</id>
-		<pri>7</pri>
+		<pri>100</pri>
 		<Action sr="act0" ve="7">
 			<code>61</code>
 			<Int sr="arg0">
@@ -4952,12 +6233,22 @@ echo $platforma | tr 'A-Z' 'a-z'</Str>
 			</Int>
 		</Action>
 		<Action sr="act1" ve="7">
-			<code>104</code>
-			<Str sr="arg0" ve="3">http://10.11.22.1/</Str>
+			<code>877</code>
+			<label>谷歌打开网址</label>
+			<Str sr="arg0" ve="3">android.intent.action.VIEW</Str>
+			<Int sr="arg1" val="3"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3">http://10.11.22.1/</Str>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3">com.android.chrome</Str>
+			<Str sr="arg8" ve="3"/>
+			<Int sr="arg9" val="1"/>
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>49</code>
-			<Str sr="arg0" ve="3">选择UI</Str>
+			<Str sr="arg0" ve="3">校园网登录UI</Str>
 		</Action>
 	</Task>
 	<Task sr="task66">
@@ -5131,23 +6422,198 @@ echo $platforma | tr 'A-Z' 'a-z'</Str>
 		</Action>
 	</Task>
 	<Task sr="task72">
-		<cdate>1556249201469</cdate>
-		<edate>1556249201469</edate>
+		<cdate>1558562869630</cdate>
+		<edate>1558562869630</edate>
 		<id>72</id>
-		<pri>7</pri>
+		<pri>102</pri>
 		<Action sr="act0" ve="7">
-			<code>548</code>
-			<on>false</on>
-			<Str sr="arg0" ve="3">%new_val</Str>
-			<Int sr="arg1" val="1"/>
+			<code>300</code>
+			<label>随机显示颜色</label>
 		</Action>
 		<Action sr="act1" ve="7">
-			<code>597</code>
-			<Str sr="arg0" ve="3">%new_val</Str>
+			<code>547</code>
+			<Str sr="arg0" ve="3">%onoff</Str>
+			<Str sr="arg1" ve="3">1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%color5</Str>
+			<Str sr="arg1" ve="3">%c16(%num)</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%num6</lhs>
+					<op>0</op>
+					<rhs>5</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%color6</Str>
+			<Str sr="arg1" ve="3">%c16(%num)</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%num6</lhs>
+					<op>0</op>
+					<rhs>6</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Color</Str>
+			<Str sr="arg1" ve="3">#68%color6%color5%color4%color3%color2%color1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Colorb</Str>
+			<Str sr="arg1" ve="3">#ff%color6%color5%color4%color3%color2%color1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>135</code>
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="3"/>
+			<Str sr="arg2" ve="3">六次</Str>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%num6</lhs>
+					<op>6</op>
+					<rhs>7</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>30</code>
+			<Int sr="arg0" val="500"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act16" ve="7">
+			<code>55</code>
+			<Str sr="arg0" ve="3">通用选择框</Str>
+			<Str sr="arg1" ve="3">背景矩形</Str>
+			<Str sr="arg2" ve="3">%Colorb</Str>
+			<Str sr="arg3" ve="3">%Color</Str>
+		</Action>
+		<Action sr="act17" ve="7">
+			<code>135</code>
+			<label>重复条件</label>
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="2"/>
+			<Str sr="arg2" ve="3">初始化</Str>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%onoff</lhs>
+					<op>0</op>
+					<rhs>1</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>547</code>
+			<label>初始化</label>
+			<Str sr="arg0" ve="3">%num6</Str>
+			<Str sr="arg1" ve="3">0</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>888</code>
+			<label>六次</label>
+			<Str sr="arg0" ve="3">%num6</Str>
 			<Int sr="arg1" val="1"/>
-			<Int sr="arg2" val="84"/>
-			<Int sr="arg3" val="1"/>
-			<Str sr="arg4" ve="3">%FQie</Str>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>545</code>
+			<label>开始产生随机颜色</label>
+			<Str sr="arg0" ve="3">%num</Str>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="15"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>354</code>
+			<Str sr="arg0" ve="3">%c16</Str>
+			<Str sr="arg1" ve="3">1.2.3.4.5.6.7.8.9.A.B.C.D.E.F</Str>
+			<Str sr="arg2" ve="3">.</Str>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%color1</Str>
+			<Str sr="arg1" ve="3">%c16(%num)</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%num6</lhs>
+					<op>0</op>
+					<rhs>1</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%color2</Str>
+			<Str sr="arg1" ve="3">%c16(%num)</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%num6</lhs>
+					<op>0</op>
+					<rhs>2</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%color3</Str>
+			<Str sr="arg1" ve="3">%c16(%num)</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%num6</lhs>
+					<op>0</op>
+					<rhs>3</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%color4</Str>
+			<Str sr="arg1" ve="3">%c16(%num)</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%num6</lhs>
+					<op>0</op>
+					<rhs>4</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
 	</Task>
 	<Task sr="task73">
@@ -5202,38 +6668,28 @@ echo $platforma | tr 'A-Z' 'a-z'</Str>
 	</Task>
 	<Task sr="task75">
 		<cdate>1556324536593</cdate>
-		<edate>1557371480112</edate>
+		<edate>1558181418009</edate>
 		<id>75</id>
 		<nme>输入番茄钟</nme>
 		<pri>100</pri>
+		<rty>1</rty>
 		<Action sr="act0" ve="7">
 			<code>548</code>
 			<Str sr="arg0" ve="3">这二十五分钟你做了什么呢</Str>
 			<Int sr="arg1" val="1"/>
 		</Action>
 		<Action sr="act1" ve="7">
-			<code>559</code>
-			<Str sr="arg0" ve="3">这二十五分钟你做了什么呢</Str>
-			<Str sr="arg1" ve="3">default:default</Str>
-			<Int sr="arg2" val="3"/>
-			<Int sr="arg3" val="5"/>
-			<Int sr="arg4" val="5"/>
-			<Int sr="arg5" val="1"/>
-			<Int sr="arg6" val="0"/>
-			<Int sr="arg7" val="1"/>
-		</Action>
-		<Action sr="act2" ve="7">
 			<code>47</code>
 			<Str sr="arg0" ve="3">番茄钟输入记录v4.0</Str>
 			<Int sr="arg1" val="5"/>
 			<Int sr="arg2" val="100"/>
 			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="2"/>
+			<Int sr="arg4" val="0"/>
 			<Int sr="arg5" val="1"/>
-			<Int sr="arg6" val="1"/>
+			<Int sr="arg6" val="0"/>
 			<Int sr="arg7" val="0"/>
 		</Action>
-		<Action sr="act3" ve="7">
+		<Action sr="act2" ve="7">
 			<code>559</code>
 			<Str sr="arg0" ve="3">休息五分钟吧</Str>
 			<Str sr="arg1" ve="3">default:default</Str>
@@ -5242,9 +6698,16 @@ echo $platforma | tr 'A-Z' 'a-z'</Str>
 			<Int sr="arg4" val="5"/>
 			<Int sr="arg5" val="1"/>
 			<Int sr="arg6" val="0"/>
-			<Int sr="arg7" val="1"/>
+			<Int sr="arg7" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%VOLM</lhs>
+					<op>6</op>
+					<rhs>9</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
-		<Action sr="act4" ve="7">
+		<Action sr="act3" ve="7">
 			<code>548</code>
 			<Str sr="arg0" ve="3">番茄钟结束，休息五分钟吧</Str>
 			<Int sr="arg1" val="1"/>
@@ -5255,23 +6718,32 @@ echo $platforma | tr 'A-Z' 'a-z'</Str>
 		</Img>
 	</Task>
 	<Task sr="task76">
-		<cdate>1556275353076</cdate>
-		<edate>1556275353076</edate>
+		<cdate>1556262772972</cdate>
+		<edate>1556262772972</edate>
 		<id>76</id>
 		<pri>102</pri>
 		<Action sr="act0" ve="7">
-			<code>61</code>
-			<Int sr="arg0" val="200"/>
+			<code>410</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">Tasker/Myfile/Mylog.txt</Str>
+			<Str sr="arg1" ve="3">%DATE %TIME %Mylog</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="1"/>
 		</Action>
 		<Action sr="act1" ve="7">
+			<code>61</code>
+			<Int sr="arg0">
+				<var>%AZhend</var>
+			</Int>
+		</Action>
+		<Action sr="act2" ve="7">
 			<code>49</code>
-			<se>false</se>
-			<Str sr="arg0" ve="3">播放音乐</Str>
+			<Str sr="arg0" ve="3">日志输入器</Str>
 		</Action>
 	</Task>
 	<Task sr="task77">
 		<cdate>1557734789167</cdate>
-		<edate>1557735035578</edate>
+		<edate>1558564984168</edate>
 		<id>77</id>
 		<nme>显示随机颜色</nme>
 		<pri>100</pri>
@@ -5347,7 +6819,7 @@ echo $platforma | tr 'A-Z' 'a-z'</Str>
 	</Task>
 	<Task sr="task80">
 		<cdate>1557734811915</cdate>
-		<edate>1557734850297</edate>
+		<edate>1558060569566</edate>
 		<id>80</id>
 		<nme>显示指定颜色</nme>
 		<pri>100</pri>
@@ -5383,7 +6855,7 @@ echo $platforma | tr 'A-Z' 'a-z'</Str>
 	</Task>
 	<Task sr="task81">
 		<cdate>1556022633264</cdate>
-		<edate>1557818387368</edate>
+		<edate>1558343576777</edate>
 		<id>81</id>
 		<nme>音乐播放3.0</nme>
 		<rty>1</rty>
@@ -5394,7 +6866,8 @@ echo $platforma | tr 'A-Z' 'a-z'</Str>
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>307</code>
-			<Int sr="arg0" val="3"/>
+			<on>false</on>
+			<Int sr="arg0" val="4"/>
 			<Int sr="arg1" val="1"/>
 			<Int sr="arg2" val="0"/>
 		</Action>
@@ -5410,34 +6883,14 @@ echo $platforma | tr 'A-Z' 'a-z'</Str>
 			<Int sr="arg7" val="0"/>
 		</Action>
 		<Action sr="act3" ve="7">
-			<code>47</code>
-			<on>false</on>
-			<Str sr="arg0" ve="3">播放音乐</Str>
-			<Int sr="arg1" val="5"/>
-			<Int sr="arg2" val="100"/>
-			<Int sr="arg3" val="100"/>
-			<Int sr="arg4" val="10"/>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="1"/>
-			<Int sr="arg7" val="0"/>
-		</Action>
-		<Action sr="act4" ve="7">
-			<code>30</code>
-			<Int sr="arg0" val="0"/>
-			<Int sr="arg1" val="10"/>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-		</Action>
-		<Action sr="act5" ve="7">
 			<code>30</code>
 			<Int sr="arg0" val="0"/>
 			<Int sr="arg1" val="0"/>
-			<Int sr="arg2" val="50"/>
-			<Int sr="arg3" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
 			<Int sr="arg4" val="0"/>
 		</Action>
-		<Action sr="act6" ve="7">
+		<Action sr="act4" ve="7">
 			<code>443</code>
 			<Int sr="arg0" val="1"/>
 			<Int sr="arg1" val="1"/>
@@ -5447,18 +6900,18 @@ echo $platforma | tr 'A-Z' 'a-z'</Str>
 				<label>网易云音乐</label>
 			</App>
 		</Action>
-		<Action sr="act7" ve="7">
+		<Action sr="act5" ve="7">
 			<code>307</code>
 			<Int sr="arg0" val="0"/>
 			<Int sr="arg1" val="1"/>
 			<Int sr="arg2" val="0"/>
 		</Action>
-		<Action sr="act8" ve="7">
+		<Action sr="act6" ve="7">
 			<code>548</code>
 			<Str sr="arg0" ve="3">计时一小时结束，休息一下。。</Str>
 			<Int sr="arg1" val="1"/>
 		</Action>
-		<Action sr="act9" ve="7">
+		<Action sr="act7" ve="7">
 			<code>300</code>
 			<label>暂停仅针对网易云音乐</label>
 		</Action>
@@ -5468,7 +6921,7 @@ echo $platforma | tr 'A-Z' 'a-z'</Str>
 	</Task>
 	<Task sr="task83">
 		<cdate>1341128614442</cdate>
-		<edate>1557860863951</edate>
+		<edate>1558520551698</edate>
 		<id>83</id>
 		<nme>开机任务</nme>
 		<pri>100</pri>
@@ -5489,8 +6942,8 @@ echo $platforma | tr 'A-Z' 'a-z'</Str>
 			<Str sr="arg0" ve="3">/data/备份/cpugpuio调度/日常调度脚本cpugpu.sh</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="1"/>
-			<Str sr="arg3" ve="3">%SWAP</Str>
-			<Str sr="arg4" ve="3">%SWAP</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
 			<Str sr="arg5" ve="3"/>
 		</Action>
 		<Action sr="act2" ve="7">
@@ -5522,6 +6975,7 @@ echo $platforma | tr 'A-Z' 'a-z'</Str>
 		</Action>
 		<Action sr="act4" ve="7">
 			<code>235</code>
+			<label>无障碍</label>
 			<on>false</on>
 			<Int sr="arg0" val="1"/>
 			<Str sr="arg1" ve="3">enabled_accessibility_services</Str>
@@ -5536,7 +6990,7 @@ echo $platforma | tr 'A-Z' 'a-z'</Str>
 	</Task>
 	<Task sr="task86">
 		<cdate>1528601207697</cdate>
-		<edate>1557840023853</edate>
+		<edate>1558220000688</edate>
 		<id>86</id>
 		<nme>- 通知</nme>
 		<pri>100</pri>
@@ -5724,7 +7178,6 @@ echo $platforma | tr 'A-Z' 'a-z'</Str>
 		<edate>1557838866724</edate>
 		<id>87</id>
 		<nme>开启ssr</nme>
-		<pri>100</pri>
 		<Action sr="act0" ve="7">
 			<code>511</code>
 			<Int sr="arg0" val="2"/>
@@ -5924,10 +7377,10 @@ echo $platforma | tr 'A-Z' 'a-z'</Str>
 	</Task>
 	<Task sr="task90">
 		<cdate>1528600584967</cdate>
-		<edate>1557850251588</edate>
+		<edate>1558109447601</edate>
 		<id>90</id>
 		<nme>均衡使用</nme>
-		<pri>6</pri>
+		<pri>100</pri>
 		<Action sr="act0" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">- 下载</Str>
@@ -6094,67 +7547,109 @@ echo $platforma | tr 'A-Z' 'a-z'</Str>
 	</Task>
 	<Task sr="task91">
 		<cdate>1556002894797</cdate>
-		<edate>1557245055270</edate>
+		<edate>1558518487843</edate>
 		<id>91</id>
 		<nme>间歇闹钟5.0</nme>
-		<pri>6</pri>
+		<pri>100</pri>
 		<rty>1</rty>
 		<Action sr="act0" ve="7">
+			<code>443</code>
+			<Int sr="arg0" val="4"/>
+			<Int sr="arg1" val="1"/>
+			<App sr="arg2"/>
+		</Action>
+		<Action sr="act1" ve="7">
 			<code>547</code>
-			<Str sr="arg0" ve="3">%TIME1</Str>
+			<Str sr="arg0" ve="3">%time1</Str>
 			<Str sr="arg1" ve="3">0</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 		</Action>
-		<Action sr="act1" ve="7">
-			<code>37</code>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%time1%TIME1</lhs>
-					<op>6</op>
-					<rhs>6</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
 		<Action sr="act10" ve="7">
-			<code>38</code>
+			<code>135</code>
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="5"/>
+			<Str sr="arg2" ve="3">小循环</Str>
 		</Action>
 		<Action sr="act11" ve="7">
-			<code>49</code>
-			<Str sr="arg0" ve="3">关闭间歇闹钟</Str>
+			<code>38</code>
 		</Action>
 		<Action sr="act12" ve="7">
+			<code>523</code>
+			<Str sr="arg0" ve="3">闹钟提醒</Str>
+			<Str sr="arg1" ve="3"/>
+			<Str sr="arg10" ve="3"/>
+			<Str sr="arg11" ve="3"/>
+			<Img sr="arg2" ve="2">
+				<nme>mw_action_watch_later</nme>
+			</Img>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="83"/>
+			<Str sr="arg9" ve="3"/>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">间歇闹钟</Str>
+		</Action>
+		<Action sr="act14" ve="7">
 			<code>30</code>
 			<Int sr="arg0" val="0"/>
 			<Int sr="arg1" val="0"/>
-			<Int sr="arg2" val="6"/>
+			<Int sr="arg2" val="5"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 		</Action>
-		<Action sr="act13" ve="7">
+		<Action sr="act15" ve="7">
 			<code>888</code>
-			<Str sr="arg0" ve="3">%TIME1</Str>
+			<Str sr="arg0" ve="3">%time1</Str>
 			<Int sr="arg1" val="1"/>
 			<Int sr="arg2" val="0"/>
 		</Action>
-		<Action sr="act14" ve="7">
+		<Action sr="act16" ve="7">
 			<code>135</code>
-			<Int sr="arg0" val="0"/>
+			<Int sr="arg0" val="1"/>
 			<Int sr="arg1" val="2"/>
-			<Str sr="arg2" ve="3"/>
+			<Str sr="arg2" ve="3">大循环</Str>
 		</Action>
-		<Action sr="act15" ve="7">
+		<Action sr="act17" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act16" ve="7">
-			<code>548</code>
-			<Str sr="arg0" ve="3">完成</Str>
-			<Int sr="arg1" val="0"/>
+		<Action sr="act18" ve="7">
+			<code>523</code>
+			<Str sr="arg0" ve="3">闹钟提醒</Str>
+			<Str sr="arg1" ve="3">完成</Str>
+			<Str sr="arg10" ve="3"/>
+			<Str sr="arg11" ve="3"/>
+			<Img sr="arg2" ve="2">
+				<nme>mw_action_watch_later</nme>
+			</Img>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="83"/>
+			<Str sr="arg9" ve="3"/>
 		</Action>
 		<Action sr="act2" ve="7">
+			<code>37</code>
+			<label>大循环</label>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%time1</lhs>
+					<op>6</op>
+					<rhs>4</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act3" ve="7">
 			<code>47</code>
-			<Str sr="arg0" ve="3">关闭间歇闹钟</Str>
+			<Str sr="arg0" ve="3">间歇闹钟</Str>
 			<Int sr="arg1" val="1"/>
 			<Int sr="arg2" val="100"/>
 			<Int sr="arg3" val="100"/>
@@ -6163,36 +7658,41 @@ echo $platforma | tr 'A-Z' 'a-z'</Str>
 			<Int sr="arg6" val="1"/>
 			<Int sr="arg7" val="1"/>
 		</Action>
-		<Action sr="act3" ve="7">
+		<Action sr="act4" ve="7">
 			<code>547</code>
-			<Str sr="arg0" ve="3">%TIME2</Str>
+			<Str sr="arg0" ve="3">%time2</Str>
 			<Str sr="arg1" ve="3">0</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 		</Action>
-		<Action sr="act4" ve="7">
+		<Action sr="act5" ve="7">
 			<code>37</code>
+			<label>小循环</label>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
-					<lhs>%time%TIME2</lhs>
+					<lhs>%time2</lhs>
 					<op>6</op>
 					<rhs>8</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act5" ve="7">
-			<code>171</code>
-			<Int sr="arg0" val="8089"/>
-			<Int sr="arg1" val="250"/>
-			<Int sr="arg2" val="4"/>
-			<Int sr="arg3" val="2"/>
-		</Action>
 		<Action sr="act6" ve="7">
-			<code>61</code>
-			<Int sr="arg0" val="500"/>
+			<code>171</code>
+			<Int sr="arg0" val="8000"/>
+			<Int sr="arg1">
+				<var>200</var>
+			</Int>
+			<Int sr="arg2" val="5"/>
+			<Int sr="arg3" val="4"/>
 		</Action>
 		<Action sr="act7" ve="7">
+			<code>61</code>
+			<Int sr="arg0">
+				<var>300</var>
+			</Int>
+		</Action>
+		<Action sr="act8" ve="7">
 			<code>30</code>
 			<Int sr="arg0" val="0"/>
 			<Int sr="arg1" val="5"/>
@@ -6200,17 +7700,11 @@ echo $platforma | tr 'A-Z' 'a-z'</Str>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 		</Action>
-		<Action sr="act8" ve="7">
+		<Action sr="act9" ve="7">
 			<code>888</code>
-			<Str sr="arg0" ve="3">%TIME2</Str>
+			<Str sr="arg0" ve="3">%time2</Str>
 			<Int sr="arg1" val="1"/>
 			<Int sr="arg2" val="0"/>
-		</Action>
-		<Action sr="act9" ve="7">
-			<code>135</code>
-			<Int sr="arg0" val="0"/>
-			<Int sr="arg1" val="5"/>
-			<Str sr="arg2" ve="3"/>
 		</Action>
 		<Img sr="icn" ve="2">
 			<nme>mw_image_timer</nme>
@@ -6237,10 +7731,10 @@ echo $platforma | tr 'A-Z' 'a-z'</Str>
 	</Task>
 	<Task sr="task94">
 		<cdate>1528600734643</cdate>
-		<edate>1557840206161</edate>
+		<edate>1558109537301</edate>
 		<id>94</id>
 		<nme>省电流畅</nme>
-		<pri>6</pri>
+		<pri>100</pri>
 		<Action sr="act0" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">- 下载</Str>
@@ -6350,7 +7844,7 @@ echo $platforma | tr 'A-Z' 'a-z'</Str>
 	</Task>
 	<Task sr="task96">
 		<cdate>1528600734643</cdate>
-		<edate>1557840172539</edate>
+		<edate>1558061321732</edate>
 		<id>96</id>
 		<nme>待机必备</nme>
 		<pri>100</pri>
@@ -6449,7 +7943,7 @@ echo $platforma | tr 'A-Z' 'a-z'</Str>
 	</Task>
 	<Task sr="task97">
 		<cdate>1556894974692</cdate>
-		<edate>1557839941054</edate>
+		<edate>1558109482707</edate>
 		<id>97</id>
 		<nme>- 设置</nme>
 		<pri>100</pri>
