@@ -1,0 +1,278 @@
+在塔斯克运行shell命令大全(需要root权限)：
+
+飞行模式开/关
+1
+settings put global airplane_mode_on 1; am broadcast -a android.intent.action.AIRPLANE_MODE --ez state true
+2
+settings put global airplane_mode_on 0; am broadcast -a android.intent.action.AIRPLANE_MODE --ez state false
+
+开/关移动数据
+1
+svc data enable
+2
+svc data disable
+
+检查文件夹是否存在（1 =无0 = YES）
+1
+[ -d /sdcard/DCIM/Camera/ ] &amp;amp;amp;&amp;amp;amp; echo 1 || echo 0
+存储输出％变量
+
+提取ZIP文件（文件％）
+1
+unzip %file /sdcard/
+
+移动文件，复制文件
+1
+mv /original/path /new/path
+2
+cp /original/path /new/path
+
+删除文件，删除文件夹
+1
+rm /path/to/file
+2
+rm -r /path/to/folder
+
+读文件，写变量（％VAR）到文件
+1
+cat /path/to/file
+2
+echo %var &amp;gt; /path/to/file
+存储输出％变量
+
+制造商/系统可重写，使系统只读
+1
+mount -o remount,rw /system
+2
+mount -o remount,ro /system
+
+更改文件权限（/系统/ etc / hosts文件为例）文件权限类型（7 = RWX; 6 = RW; 4 = R）（CHMOD（根：组;用户））
+1
+chmod 644 /system/etc/hosts
+
+检查文件的md5sum
+1
+md5sum /path/to/file
+
+检查进程正在运行（返回过程或空）
+1
+pgrep -x com.package.name
+存储输出％变量
+
+停止当前下载
+1
+am force-stop com.android.providers.downloads
+2
+pm clear com.android.providers.downloads
+
+杀死一个应用程序（例子:chrome浏览器）
+1
+am force-stop com.android.chrome
+
+重新启动系统UI
+1
+pkill -l TERM -f com.android.systemui
+
+重启，重启恢复
+1
+svc power reboot
+2
+svc power reboot recovery
+
+截图到SD卡
+1
+screencap -p /sdcard/screengrab.png
+
+检查键盘输出（1 =无0 = YES）
+1
+cat /proc/$(pgrep com.touchtype.swiftkey)/oom_adj
+存储输出％变量
+
+IP检测（-c计数，-i间隔-s PACKETSIZE，-t TTL = XXX IP）
+1
+ping -c 3 xxx.xxx.xxx.xxx
+存储输出％变量
+
+储存最后输入坐标
+1
+getevent -lc 3 /dev/input/event1 | grep ABS_MT_POSITION_.
+存储输出％变量
+
+模拟用户的击键输入
+1
+input tap X Y
+
+模拟用户长按输入（持续时间250）
+1
+input swipe X1 Y1 X1 Y1 250
+
+模拟文本输入
+1
+input text sampletext
+
+模拟用户划屏（Z =时长）
+1
+input swipe X1 Y1 X2 Y2 Z
+
+模拟特定键（例子:返回）
+1
+input keyevent 4
+
+KeyEvent名单：
+0 -->  "KEYCODE_UNKNOWN"
+1 -->  "KEYCODE_MENU"
+2 -->  "KEYCODE_SOFT_RIGHT"
+3 -->  "KEYCODE_HOME"
+4 -->  "KEYCODE_BACK"
+5 -->  "KEYCODE_CALL"
+6 -->  "KEYCODE_ENDCALL"
+7 -->  "KEYCODE_0"
+8 -->  "KEYCODE_1"
+9 -->  "KEYCODE_2"
+10 -->  "KEYCODE_3"
+11 -->  "KEYCODE_4"
+12 -->  "KEYCODE_5"
+13 -->  "KEYCODE_6"
+14 -->  "KEYCODE_7"
+15 -->  "KEYCODE_8"
+16 -->  "KEYCODE_9"
+17 -->  "KEYCODE_STAR"
+18 -->  "KEYCODE_POUND"
+19 -->  "KEYCODE_DPAD_UP"
+20 -->  "KEYCODE_DPAD_DOWN"
+21 -->  "KEYCODE_DPAD_LEFT"
+22 -->  "KEYCODE_DPAD_RIGHT"
+23 -->  "KEYCODE_DPAD_CENTER"
+24 -->  "KEYCODE_VOLUME_UP"
+25 -->  "KEYCODE_VOLUME_DOWN"
+26 -->  "KEYCODE_POWER"
+27 -->  "KEYCODE_CAMERA"
+28 -->  "KEYCODE_CLEAR"
+29 -->  "KEYCODE_A"
+30 -->  "KEYCODE_B"
+31 -->  "KEYCODE_C"
+32 -->  "KEYCODE_D"
+33 -->  "KEYCODE_E"
+34 -->  "KEYCODE_F"
+35 -->  "KEYCODE_G"
+36 -->  "KEYCODE_H"
+37 -->  "KEYCODE_I"
+38 -->  "KEYCODE_J"
+39 -->  "KEYCODE_K"
+40 -->  "KEYCODE_L"
+41 -->  "KEYCODE_M"
+42 -->  "KEYCODE_N"
+43 -->  "KEYCODE_O"
+44 -->  "KEYCODE_P"
+45 -->  "KEYCODE_Q"
+46 -->  "KEYCODE_R"
+47 -->  "KEYCODE_S"
+48 -->  "KEYCODE_T"
+49 -->  "KEYCODE_U"
+50 -->  "KEYCODE_V"
+51 -->  "KEYCODE_W"
+52 -->  "KEYCODE_X"
+53 -->  "KEYCODE_Y"
+54 -->  "KEYCODE_Z"
+55 -->  "KEYCODE_COMMA"
+56 -->  "KEYCODE_PERIOD"
+57 -->  "KEYCODE_ALT_LEFT"
+58 -->  "KEYCODE_ALT_RIGHT"
+59 -->  "KEYCODE_SHIFT_LEFT"
+60 -->  "KEYCODE_SHIFT_RIGHT"
+61 -->  "KEYCODE_TAB"
+62 -->  "KEYCODE_SPACE"
+63 -->  "KEYCODE_SYM"
+64 -->  "KEYCODE_EXPLORER"
+65 -->  "KEYCODE_ENVELOPE"
+66 -->  "KEYCODE_ENTER"
+67 -->  "KEYCODE_DEL"
+68 -->  "KEYCODE_GRAVE"
+69 -->  "KEYCODE_MINUS"
+70 -->  "KEYCODE_EQUALS"
+71 -->  "KEYCODE_LEFT_BRACKET"
+72 -->  "KEYCODE_RIGHT_BRACKET"
+73 -->  "KEYCODE_BACKSLASH"
+74 -->  "KEYCODE_SEMICOLON"
+75 -->  "KEYCODE_APOSTROPHE"
+76 -->  "KEYCODE_SLASH"
+77 -->  "KEYCODE_AT"
+78 -->  "KEYCODE_NUM"
+79 -->  "KEYCODE_HEADSETHOOK"
+80 -->  "KEYCODE_FOCUS"
+81 -->  "KEYCODE_PLUS"
+82 -->  "KEYCODE_MENU"
+83 -->  "KEYCODE_NOTIFICATION"
+84 -->  "KEYCODE_SEARCH"
+85 -->  "TAG_LAST_KEYCODE"
+
+获取电池省电配置文件状态/启用/禁用
+1
+settings get global low_power
+2
+settings put global low_power 1
+3
+settings put global low_power 0
+
+Greenify打盹启用/禁用
+1
+am stopservice com.oasisfeng.greenify/.DozeService
+2
+pm disable com.oasisfeng.greenify/.DozeService
+3
+/
+4
+pm enable com.oasisfeng.greenify/.DozeService
+5
+am startservice com.oasisfeng.greenify/.DozeService
+
+显示您的电池电量，健康和温度（输出需求格式化）
+1
+dumpsys battery | grep health
+2
+dumpsys battery | grep temperature
+存储输出％变量
+
+Wi-Fi（扫描总是可用）ON / OFF
+1
+settings put global wifi_scan_always_enabled 1
+2
+settings put global wifi_scan_always_enabled 0
+
+调整屏幕和复位
+1
+wm overscan 150,750,0,0
+2
+wm overscan reset
+
+查询的Wi-Fi（扫描总是可用）状态
+1
+settings get global wifi_scan_always_enabled
+存储输出％变量 
+
+查询当前已启用位置提供商
+1
+settings get secure location_providers_allowed
+存储输出％变量
+
+查询启用无障碍服务
+1
+settings get secure enabled_accessibility_services
+存储输出％变量
+
+查询启用通知监听器
+1
+settings get secure enabled_notification_listeners
+存储输出％变量
+
+启用一项辅助服务（例子:自动输入）
+1
+settings get secure enabled_accessibility_services
+存储输出％变量:
+settings put secure enabled_accessibility_services %Variable:com.joaomgcd.autoinput/com.joaomgcd.autoinput.service.ServiceAccessibility
+
+启用通知监听器（AutoNotification例子）
+1
+settings get secure enabled_notification_listeners
+存储输出％变量:
+settings put secure enabled_notification_listeners %Variable:com.joaomgcd.autonotification/com.joaomgcd.autonotification.service.ServiceNotificationIntercept

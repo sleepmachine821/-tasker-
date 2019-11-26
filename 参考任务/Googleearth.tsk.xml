@@ -1,0 +1,132 @@
+<class cl="Task" sr="">
+	<nme>ToggleTracker</nme>
+	<class cl="Action" sr="act1">
+		<class cl="IntArg" sr="arg3">
+		</class>
+		<class cl="IntArg" sr="arg2">
+		</class>
+		<code>547</code>
+		<class cl="StringArg" sr="arg1">
+			<val>Tasker/tmp/Track_%DATE_%TIME.kml</val>
+		</class>
+		<class cl="StringArg" sr="arg0">
+			<val>%TRACKFILE</val>
+		</class>
+	</class>
+	<class cl="Action" sr="act0">
+		<rhs></rhs>
+		<code>37</code>
+		<op>10</op>
+		<lhs>%TRACKFILE</lhs>
+	</class>
+	<class cl="Action" sr="act10">
+		<class cl="IntArg" sr="arg2">
+			<val>1</val>
+		</class>
+		<code>410</code>
+		<class cl="StringArg" sr="arg1">
+			<val>&lt;/Document&gt;</val>
+		</class>
+		<class cl="StringArg" sr="arg0">
+			<val>%TRACKFILE</val>
+		</class>
+	</class>
+	<class cl="Action" sr="act12">
+		<code>779</code>
+		<class cl="IntArg" sr="arg1">
+		</class>
+		<class cl="StringArg" sr="arg0">
+			<val>Track</val>
+		</class>
+	</class>
+	<class cl="Action" sr="act11">
+		<class cl="StringArg" sr="arg0">
+			<val>%TRACKFILE</val>
+		</class>
+		<code>549</code>
+	</class>
+	<class cl="AppIcon" sr="icn">
+		<icn>2130837513</icn>
+	</class>
+	<id>89</id>
+	<pri>10</pri>
+	<class cl="Action" sr="act8">
+		<code>159</code>
+		<class cl="IntArg" sr="arg1">
+		</class>
+		<class cl="StringArg" sr="arg0">
+			<val>NewFixAvailable</val>
+		</class>
+	</class>
+	<class cl="Action" sr="act9">
+		<class cl="IntArg" sr="arg4">
+		</class>
+		<class cl="IntArg" sr="arg3">
+		</class>
+		<class cl="IntArg" sr="arg2">
+		</class>
+		<class cl="IntArg" sr="arg1">
+			<val>2</val>
+		</class>
+		<class cl="IntArg" sr="arg0">
+		</class>
+		<code>30</code>
+	</class>
+	<class cl="Action" sr="act6">
+		<code>137</code>
+	</class>
+	<class cl="Action" sr="act7">
+		<code>38</code>
+	</class>
+	<class cl="Action" sr="act4">
+		<class cl="IntArg" sr="arg3">
+		</class>
+		<class cl="IntArg" sr="arg2">
+			<val>1</val>
+		</class>
+		<code>547</code>
+		<class cl="StringArg" sr="arg1">
+			<val>%TIMES + 9999</val>
+		</class>
+		<class cl="StringArg" sr="arg0">
+			<val>%SETTLETMS</val>
+		</class>
+	</class>
+	<class cl="Action" sr="act5">
+		<code>159</code>
+		<class cl="IntArg" sr="arg1">
+			<val>1</val>
+		</class>
+		<class cl="StringArg" sr="arg0">
+			<val>NewFixAvailable</val>
+		</class>
+	</class>
+	<class cl="Action" sr="act2">
+		<class cl="IntArg" sr="arg4">
+			<val>1</val>
+		</class>
+		<class cl="IntArg" sr="arg3">
+		</class>
+		<class cl="AppIcon" sr="arg2">
+			<icn>2130837513</icn>
+		</class>
+		<class cl="StringArg" sr="arg1">
+			<val></val>
+		</class>
+		<class cl="StringArg" sr="arg0">
+			<val>Track</val>
+		</class>
+		<code>523</code>
+	</class>
+	<class cl="Action" sr="act3">
+		<class cl="IntArg" sr="arg2">
+		</class>
+		<code>410</code>
+		<class cl="StringArg" sr="arg1">
+			<val>&lt;Document&gt;&lt;name&gt;%DATE %TIME&lt;/name&gt;</val>
+		</class>
+		<class cl="StringArg" sr="arg0">
+			<val>%TRACKFILE</val>
+		</class>
+	</class>
+</class>

@@ -1,0 +1,418 @@
+<TaskerData sr="" dvi="1" tv="5.0u7m">
+	<Profile sr="prof43" ve="2">
+		<cdate>1541561280641</cdate>
+		<edate>1541809245529</edate>
+		<id>43</id>
+		<mid0>42</mid0>
+		<nme>通知朗读</nme>
+		<Event sr="con0" ve="2">
+			<code>461</code>
+			<App sr="arg0">
+				<appClass>com.tencent.mm.ui.LauncherUI,
+com.tencent.mobileqq.activity.SplashActivity</appClass>
+				<appPkg>com.tencent.mm,
+com.tencent.mobileqq</appPkg>
+				<label>微信,
+QQ</label>
+			</App>
+			<Str sr="arg1" ve="3"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Int sr="arg7" val="0"/>
+		</Event>
+	</Profile>
+	<Task sr="task42">
+		<cdate>1514694850671</cdate>
+		<edate>1541809192241</edate>
+		<id>42</id>
+		<nme>通知朗读</nme>
+		<pri>100</pri>
+		<rty>2</rty>
+		<Action sr="act0" ve="7">
+			<code>548</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">%evtprm(2)
+%evtprm(3)</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>598</code>
+			<label>去条数去回车</label>
+			<Str sr="arg0" ve="3">%evtprm(3)</Str>
+			<Str sr="arg1" ve="3">\[.*?条\]|\n</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>598</code>
+			<label>整理发信人名字</label>
+			<Str sr="arg0" ve="3">%WX人(1)</Str>
+			<Str sr="arg1" ve="3">\[.*?\]|[\s\d\W_]|h.*?b.*?z|c.*?t.*?y|汇.*?百.*?洲</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>598</code>
+			<label>提取表情%WX表情(1)</label>
+			<Str sr="arg0" ve="3">%WX内容(1)</Str>
+			<Str sr="arg1" ve="3">(?&lt;=\[)(.*?)(?=\])</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+			<Str sr="arg5" ve="3">%WX表情</Str>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>37</code>
+			<label>判断是不是特殊消息</label>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%WX表情(1)</lhs>
+					<op>4</op>
+					<rhs>动画表情|文件|图片|转账|微信红包|语音|链接|视频|位置</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%WX朗读</Str>
+			<Str sr="arg1" ve="3">%WX人(1)发来%WX表情(1)</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%WX朗读</Str>
+			<Str sr="arg1" ve="3">%WX人(1)已确认收钱</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%WX内容(1)</lhs>
+					<op>0</op>
+					<rhs>[转账]朋友已确认收钱</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act16" ve="7">
+			<code>598</code>
+			<label>去掉表情</label>
+			<Str sr="arg0" ve="3">%WX内容(1)</Str>
+			<Str sr="arg1" ve="3">\[.*?\]</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act17" ve="7">
+			<code>37</code>
+			<label>判断是不是都是表情</label>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%WX内容(1)</lhs>
+					<op>4</op>
+					<rhs>\%WX内容(1)</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act18" ve="7">
+			<code>547</code>
+			<label>发来表情</label>
+			<Str sr="arg0" ve="3">%WX朗读</Str>
+			<Str sr="arg1" ve="3">%WX人(1)发来%WX表情(1)的表情</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act19" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%evtprm(3)</lhs>
+					<op>4</op>
+					<rhs>:\s</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act20" ve="7">
+			<code>345</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3">%WX内容(1)</Str>
+			<Str sr="arg2" ve="3">%WX长度</Str>
+		</Action>
+		<Action sr="act21" ve="7">
+			<code>37</code>
+			<label>念文字或者文字太多</label>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%WX长度</lhs>
+					<op>6</op>
+					<rhs>50</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act22" ve="7">
+			<code>547</code>
+			<label>发来文字</label>
+			<Str sr="arg0" ve="3">%WX朗读</Str>
+			<Str sr="arg1" ve="3">%WX人(1)说,%WX内容(1)</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act23" ve="7">
+			<code>547</code>
+			<label>撤回一条消息</label>
+			<Str sr="arg0" ve="3">%WX朗读</Str>
+			<Str sr="arg1" ve="3">%WX人(1)撤回一条消息</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%WX内容(1)</lhs>
+					<op>2</op>
+					<rhs>*撤回一条消息</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act24" ve="7">
+			<code>547</code>
+			<label>向你推荐了名片</label>
+			<Str sr="arg0" ve="3">%WX朗读</Str>
+			<Str sr="arg1" ve="3">%WX人(1)推荐了名片</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%WX内容(1)</lhs>
+					<op>2</op>
+					<rhs>*向你推荐了*</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act25" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act26" ve="7">
+			<code>547</code>
+			<label>话太多了，不念</label>
+			<Str sr="arg0" ve="3">%WX朗读</Str>
+			<Str sr="arg1" ve="3">%WX人(1)发了很多字，我就不念给你听了</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act27" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act28" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act29" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>598</code>
+			<label>来信人%WX人(1)</label>
+			<Str sr="arg0" ve="3">%evtprm(3)</Str>
+			<Str sr="arg1" ve="3">^(.*?)(?=:\s)</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+			<Str sr="arg5" ve="3">%WX人</Str>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act30" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<bool0>Or</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%WX内容(1)</lhs>
+					<op>1</op>
+					<rhs>%WX老内容</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%WX表情(1)</lhs>
+					<op>1</op>
+					<rhs>%WX老表情</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act31" ve="7">
+			<code>598</code>
+			<label>指定时间内同一个人不再念名字</label>
+			<Str sr="arg0" ve="3">%WX朗读</Str>
+			<Str sr="arg1" ve="3">^(.*?),|%WX人(1)</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%TIMES</lhs>
+					<op>6</op>
+					<rhs>%WX时间</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%WX人(1)</lhs>
+					<op>0</op>
+					<rhs>%WX老相好</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act32" ve="7">
+			<code>547</code>
+			<label>重新指定上次发信人</label>
+			<Str sr="arg0" ve="3">%WX老相好</Str>
+			<Str sr="arg1" ve="3">%WX人(1)</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%WX人(1)</lhs>
+					<op>1</op>
+					<rhs>%WX老相好</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act33" ve="7">
+			<code>547</code>
+			<label>重新指定上次内容</label>
+			<Str sr="arg0" ve="3">%WX老内容</Str>
+			<Str sr="arg1" ve="3">%WX内容(1)</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act34" ve="7">
+			<code>547</code>
+			<label>重新指定上次表情</label>
+			<Str sr="arg0" ve="3">%WX老表情</Str>
+			<Str sr="arg1" ve="3">%WX表情(1)</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act35" ve="7">
+			<code>547</code>
+			<label>指定时间不再念相同来信人名字</label>
+			<Str sr="arg0" ve="3">%WX时间</Str>
+			<Str sr="arg1" ve="3">%TIMES+20</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act36" ve="7">
+			<code>410</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">273.15/微信789.txt</Str>
+			<Str sr="arg1" ve="3">%WX朗读</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="1"/>
+		</Action>
+		<Action sr="act37" ve="7">
+			<code>548</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">%WX朗读</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act38" ve="7">
+			<code>559</code>
+			<Str sr="arg0" ve="3">%WX朗读</Str>
+			<Str sr="arg1" ve="3">com.iflytek.speechcloud:zho-CHN</Str>
+			<Int sr="arg2" val="3"/>
+			<Int sr="arg3" val="5"/>
+			<Int sr="arg4" val="5"/>
+			<Int sr="arg5" val="1"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>598</code>
+			<label>来信内容%WX内容(1)</label>
+			<Str sr="arg0" ve="3">%evtprm(3)</Str>
+			<Str sr="arg1" ve="3">(?&lt;=:\s)(.*)$</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+			<Str sr="arg5" ve="3">%WX内容</Str>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>547</code>
+			<label>是群的话开头加群里</label>
+			<Str sr="arg0" ve="3">%WX人(1)</Str>
+			<Str sr="arg1" ve="3">群里%WX人(1)</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%WX人(1)</lhs>
+					<op>1</op>
+					<rhs>%evtprm(2)</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%evtprm(2)</lhs>
+					<op>1</op>
+					<rhs>红包吧</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>547</code>
+			<label>来信人%WX人(1)</label>
+			<Str sr="arg0" ve="3">%WX人(1)</Str>
+			<Str sr="arg1" ve="3">%evtprm(2)</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>547</code>
+			<label>来信内容%WX内容(1)</label>
+			<Str sr="arg0" ve="3">%WX内容(1)</Str>
+			<Str sr="arg1" ve="3">%evtprm(3)</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>38</code>
+		</Action>
+	</Task>
+</TaskerData>

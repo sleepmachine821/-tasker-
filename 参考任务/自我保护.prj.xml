@@ -1,0 +1,114 @@
+<TaskerData sr="" dvi="1" tv="4.7u3m">
+	<Profile sr="prof113" ve="2">
+		<cdate>1477793209346</cdate>
+		<clp>true</clp>
+		<edate>1477795602278</edate>
+		<flags>1</flags>
+		<id>113</id>
+		<mid0>75</mid0>
+		<Event sr="con0" ve="2">
+			<code>599</code>
+			<Str sr="arg0" ve="3">android.intent.action.CLOSE_SYSTEM_DIALOGS</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+		</Event>
+	</Profile>
+	<Profile sr="prof76" ve="2">
+		<cdate>1477792610063</cdate>
+		<clp>true</clp>
+		<edate>1477795585650</edate>
+		<flags>1</flags>
+		<id>76</id>
+		<mid0>75</mid0>
+		<State sr="con0" ve="2">
+			<code>123</code>
+			<Int sr="arg0" val="1"/>
+		</State>
+	</Profile>
+	<Profile sr="prof77" ve="2">
+		<cdate>1477792671241</cdate>
+		<clp>true</clp>
+		<edate>1477795588978</edate>
+		<flags>1</flags>
+		<id>77</id>
+		<mid0>75</mid0>
+		<App sr="con0" ve="2">
+			<cls0>com.android.settings.HWSettings</cls0>
+			<flags>2</flags>
+			<label0>设置</label0>
+			<pin>true</pin>
+			<pkg0>com.android.settings</pkg0>
+		</App>
+	</Profile>
+	<Profile sr="prof78" ve="2">
+		<cdate>1477792693682</cdate>
+		<clp>true</clp>
+		<edate>1477795595948</edate>
+		<flags>1</flags>
+		<id>78</id>
+		<mid0>75</mid0>
+		<Time sr="con0">
+			<fh>-1</fh>
+			<fm>-1</fm>
+			<rep>2</rep>
+			<repval>2</repval>
+			<th>-1</th>
+			<tm>-1</tm>
+		</Time>
+	</Profile>
+	<Profile sr="prof79" ve="2">
+		<cdate>1477792785961</cdate>
+		<clp>true</clp>
+		<edate>1477795604809</edate>
+		<flags>1</flags>
+		<id>79</id>
+		<mid0>75</mid0>
+		<Event sr="con0" ve="2">
+			<code>463</code>
+			<Str sr="arg0" ve="3"/>
+			<Int sr="arg1" val="0"/>
+		</Event>
+	</Profile>
+	<Project sr="proj0" ve="2">
+		<cdate>1477792622253</cdate>
+		<name>自我保护</name>
+		<pids>77,76,79,78,113</pids>
+		<tids>75</tids>
+	</Project>
+	<Task sr="task75">
+		<cdate>1477792379123</cdate>
+		<edate>1477795810034</edate>
+		<id>75</id>
+		<nme>自我保护</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>300</code>
+			<label>2016-10-30 为华为EMUI设计</label>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>129</code>
+			<Str sr="arg0" ve="3">var b=shell("dumpsys window windows | grep -E 'mCurrentFocus'",true,10);
+var b=String(b.match(/\S+(?=\})/));
+if (b=="com.android.settings/com.android.settings.Settings$DevelopmentSettingsActivity"||b=="com.android.settings/com.android.settings.DeviceAdminAdd"||b=="com.android.settings/com.android.settings.Settings$ManageApplicationsActivity"||b=="com.huawei.systemmanager/com.huawei.systemmanager.optimize.process.ProtectActivity"||b=="com.huawei.systemmanager/com.huawei.systemmanager.optimize.bootstart.BootStartActivity"||b=="com.huawei.systemmanager/com.huawei.permissionmanager.ui.MainActivity"||b=="com.huawei.systemmanager/com.huawei.systemmanager.addviewmonitor.AddViewMonitorActivity"||b=="com.huawei.systemmanager/com.huawei.systemmanager.power.ui.BackgroundConsumeActivity"||b=="com.huawei.systemmanager/com.huawei.systemmanager.power.ui.BackgroundConsumeActivity"||b=="com.huawei.systemmanager/com.huawei.systemmanager.optimize.PhoneOptimizeActivity") {
+goHome();
+var c=b.split("/")[0];
+shell("am force-stop "+c,true,10);
+flashLong("检测到您尝试进行非法操作，已被拦截")
+}</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="10"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>129</code>
+			<Str sr="arg0" ve="3">s=shell("settings get secure enabled_accessibility_services",true)
+if(s.indexOf("taskerm")=="-1"){flashLong("检测到您进行了非法操作，正在恢复");shell("settings put secure enabled_accessibility_services "+s+":net.dinglisch.android.taskerm/net.dinglisch.android.taskerm.MyAccessibilityService",true)}
+shell("settings put secure accessibility_enabled 1",true)</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="10"/>
+		</Action>
+	</Task>
+</TaskerData>
